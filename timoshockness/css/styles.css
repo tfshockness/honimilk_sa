@@ -8,20 +8,32 @@ and open the template in the editor.
     Author     : tchanos
 */
 
-/************** NAV ***************/
- html{
+
+/************** Common ***************/
+
+ *{
      margin: 0;
      padding: 0;
+ }
+ html {
+     max-width: 1480px;
  }
  a {
      text-decoration: none;
  }
+ 
+ section {
+     clear: both;
+ }
+ 
+/************** NAV ***************/
 .navigation{
     background:#fff;
     width:100%;
-    position: absolute;
+    position: fixed;
     opacity: 1;
-    height: 53px;
+    padding-top: 20px;
+    height: 37px;
     top:0px;
     left: 0px;
     box-shadow:0 4px 2px 0px rgba(179,179,179, .5);
@@ -32,10 +44,12 @@ and open the template in the editor.
     color:#535353;
     display:block;
     height: 34px;
-    letter-spacing: 2px;
+    font-size: 1.8vw;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     -webkit-transition: color .1s;
     transition: color .1s;
+
 }
 
 .navigation ul{ 
@@ -54,7 +68,7 @@ and open the template in the editor.
 }
 .main_menu_list li{
     float:left;
-    width: 15%;
+    width: 16%;
     height: 34px;
     vertical-align:central;
     line-height:80%;
@@ -63,31 +77,218 @@ and open the template in the editor.
 }
 
 #li_skills a:hover{
-    border-bottom: 3px solid #308080;
     color: #308080;
-
 }
 
 #li_qualifications a:hover{
-    border-bottom: 3px solid #314980;
     color: #314980;
-
 }
 
 #li_career a:hover{
-    border-bottom: 3px solid #138BC4;
     color: #138BC4;
-
 }
 
 #li_portifolio a:hover{
-    border-bottom: 3px solid #F0B14E;
     color: #F0B14E;
-
 }
 
 #li_contact a:hover{
+    color: #CAC3AB;
+}
+
+.main_menu_list #li_skills:hover{
+    border-bottom: 3px solid #308080;
+    color: #308080;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+
+}
+
+.main_menu_list #li_qualifications:hover{
+    border-bottom: 3px solid #314980;
+    color: #314980;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+    
+}
+
+.main_menu_list #li_career:hover{
+    border-bottom: 3px solid #138BC4;
+    color: #138BC4;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.main_menu_list #li_portifolio:hover{
+    border-bottom: 3px solid #F0B14E;
+    color: #F0B14E;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.main_menu_list #li_contact:hover{
     border-bottom: 3px solid #CAC3AB;
     color: #CAC3AB;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
 
+.menu_ic_list #li_skills:hover{
+    border-bottom: 3px solid #308080;
+    color: #308080;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+
+}
+
+.menu_ic_list #li_qualifications:hover{
+    border-bottom: 3px solid #314980;
+    color: #314980;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+    
+}
+
+.menu_ic_list #li_career:hover{
+    border-bottom: 3px solid #138BC4;
+    color: #138BC4;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.menu_ic_list #li_portifolio:hover{
+    border-bottom: 3px solid #F0B14E;
+    color: #F0B14E;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.menu_ic_list #li_contact:hover{
+    border-bottom: 3px solid #CAC3AB;
+    color: #CAC3AB;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+/************** INTRO ***************/
+
+.hello_world {
+    background-image: url('../img/layout/backgrounds/bkghome_bmask.png');
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    height: 660px;
+}
+.intro {
+    margin:0 auto;
+    width: 60%;
+    padding-top: 15%;
+    max-height: 530px;
+}
+
+.intro h1{
+    font-size: 5vw;
+    letter-spacing: 2px;
+    color: #587A8E;
+    text-align: center;
+}
+
+.intro h2{
+    font-size: 3.5vw;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-align: center;
+}
+
+.intro p{
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    margin-top: 25%;
+}
+
+
+/************** More about ICON MENU ***************/
+
+.more_about_me{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.more_about_me h2{
+    text-align: center;
+    font-size: 3vw;
+    color:#535353;
+}
+
+.navigation_ic{
+    margin-top: 80px;
+}
+
+.wrap_ic{
+    width: 100%;
+    overflow:auto;
+}
+.wrap_ic ul {
+    list-style:none;
+    text-decoration:none;
+    width: 100%;
+    overflow: auto;
+}
+
+.menu_ic_list li{
+    float:left;
+    width: 16%;
+    padding-left:2%;
+    padding-right:2%;
+    margin: 0 auto;
+}
+
+.menu_ic_list a{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color:#535353;
+    font-size: 1.8vw;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    -webkit-transition: color .1s;
+    transition: color .1s;
+}
+
+.menu_ic_list img{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }

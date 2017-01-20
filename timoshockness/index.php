@@ -7,8 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
         <meta name="description" content="Timoteo Shockness. Web Designer. Web Developer. Wordpress. SEO. Search Enginer Optimization. Creating website. Hosting. PHP. HTML. CSS. C#. ASP.NET. JavaScript" />
         <meta name="og:type" content="website" />
         <meta name="og:title" content="Timoteo Shockness, web designer and web developer. Technical skills in SEO, Wordpress, PHP, C#, ASP.NET, HTML, CSS, JavaScript." />
@@ -20,7 +20,17 @@ and open the template in the editor.
     <body>
         <?php include_once 'resources/templates/menu_top.php'; ?>
         <div id="content">
-            
+            <section class="hello_world">
+                <div class="intro">
+                    <h1>Hello World,</h1>
+                    <h2>My name is Timoteo Shockness. <br /> I'm Front End Developer.</h2>
+                    <p>Maybe put something with the writing plugin over here.</p>
+                </div>   
+            </section>
+<!--            Includinig the Icons Menu      -->
+        <?php include_once 'resources/templates/menu_ic.php'; ?>
+            <section class="skills">
+            </section>
         </div>
         <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
