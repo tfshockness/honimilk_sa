@@ -9,65 +9,85 @@ and open the template in the editor.
 */
 
 /************** NAV ***************/
+ html{
+     margin: 0;
+     padding: 0;
+ }
+ a {
+     text-decoration: none;
+ }
 .navigation{
-    background:#06214c;
+    background:#fff;
     width:100%;
     position: absolute;
     opacity: 1;
-    height: 92px;
+    height: 53px;
     top:0px;
-}
-
-.wrap-nav{
-    text-align:center;
-    padding-left: 15%;
-}
-
-.logo{
-    margin-top:35px;
-    margin-left: 22px;
-    padding-left: 22px;
-    width:20%;
-    float:left;
-    color: #fff;
-    font-size: 28px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    left: 0px;
+    box-shadow:0 4px 2px 0px rgba(179,179,179, .5);
+    -webkit-box-shadow:0 4px 2px 0px rgba(179,179,179, .5);
 }
 
 .navigation a {
-    color:#fff;
-    font-size: 14px;
-    font-family: 'Ubuntu', sans-serif;
+    color:#535353;
+    display:block;
+    height: 34px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-weight: bold;
-    -webkit-transition: color .3s;
-    transition: color .3s;
+    -webkit-transition: color .1s;
+    transition: color .1s;
 }
 
 .navigation ul{ 
-    margin-top:20px;
     list-style:none;
     text-decoration:none;
-    /*display:inline;*/
-    /*background:#fff;*/
  }
+ 
+.wrap-nav{
+    text-align:center;
+    margin: 0 auto;
+}
 
+.main_menu_list{
+    min-width: 750px;
+
+}
 .main_menu_list li{
     float:left;
+    width: 15%;
+    height: 34px;
     vertical-align:central;
-    line-height:400%;
+    line-height:80%;
     padding-left:2%;
     padding-right:2%;
 }
 
-.main_menu_list a:hover{
-    color: #1664e2;
+#li_skills a:hover{
+    border-bottom: 3px solid #308080;
+    color: #308080;
 
 }
 
-.main_menu_list{
-    margin-left:22%;
-    min-width: 750px;
+#li_qualifications a:hover{
+    border-bottom: 3px solid #314980;
+    color: #314980;
+
+}
+
+#li_career a:hover{
+    border-bottom: 3px solid #138BC4;
+    color: #138BC4;
+
+}
+
+#li_portifolio a:hover{
+    border-bottom: 3px solid #F0B14E;
+    color: #F0B14E;
+
+}
+
+#li_contact a:hover{
+    border-bottom: 3px solid #CAC3AB;
+    color: #CAC3AB;
+
 }
