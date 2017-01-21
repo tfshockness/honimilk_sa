@@ -18,7 +18,7 @@ and open the template in the editor.
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <?php include_once 'resources/templates/menu_top.php'; ?>
+        <?php// include_once 'resources/templates/menu_top.php'; ?>
         <div id="content">
             <section class="hello_world">
                 <div class="intro">

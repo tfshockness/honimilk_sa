@@ -198,14 +198,15 @@ and open the template in the editor.
     -moz-background-position: center;
     -o-background-position: center;
     background-position: center;
-    background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-repeat: no-repeat;
     -moz-background-repeat: no-repeat;
     -o-background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 660px;
 }
 .intro {
