@@ -1,18 +1,109 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on :
-    Author     : 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
-/************** NAV ***************/
- html{
-     margin: 0;
-     padding: 0;
- }
- a {
-     text-decoration: none;
- }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*                              END CSS RESET                                  */
+
+/*                              GENERAL STYLE                                  */
+
+.main_board_content h1,
+.main_board_links a{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*                                 MAIN BOARD                                  */
+
+.main_board{
+    height: 80vh;
+    background-color: #1a1a1a;
+}
+
+.main_board_content{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.main_board_content h1{
+    color: #fff;
+    font-size: 70px;
+    line-height: 1.3;
+}
+
+.main_board_links{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.main_board_links a{
+    text-decoration: none;
+    color: #45798c;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.main_board_links span{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.main_board_links span:hover{
+    border-bottom: 1.5px solid #acd9e5;
+}
+
+.main_board_links span:last-child{
+   margin-left: 10%;
+}
+
+.main_board_links i#pdf_icon {
+    color: #ea5253;
+}
+
+.main_board_links i#linkedIn_icon{
+    color: #2c7cb5;
+}
