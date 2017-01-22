@@ -73,11 +73,12 @@ table {
     color: #fff;
     font-size: 70px;
     line-height: 1.3;
+    text-shadow: 4px 4px 8px #020202;
 }
 
 .main_board_links{
     padding-top: 5%;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .main_board_links a{
@@ -85,18 +86,21 @@ table {
     color: #45798c;
     font-size: 40px;
     font-weight: lighter;
+    vertical-align: middle;
 }
 
-.main_board_links span{
+.main_board_links div{
     cursor: pointer;
-    font-size: 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 27%;
 }
 
-.main_board_links span:hover{
-    border-bottom: 1.5px solid #acd9e5;
+.main_board_links div:hover a{
+    color: #0e4b5b;
 }
 
-.main_board_links span:last-child{
+.main_board_links div:last-child{
    margin-left: 10%;
 }
 
@@ -106,4 +110,10 @@ table {
 
 .main_board_links i#linkedIn_icon{
     color: #2c7cb5;
+}
+
+.zigzag_border{
+    height: 60px;
+    background-image: url('../image/zigzag.png');
+    margin-top: -37px;
 }

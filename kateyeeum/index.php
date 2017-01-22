@@ -13,7 +13,7 @@
     <!--Scripts-and-Css-->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Sans+Pro:300|Hind" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="./js/typed.js" type="text/javascript"></script>
@@ -26,16 +26,26 @@
             <h1> - Web Designer </h1>
         </div> <!-- End of .main_board_content -->
         <div class="main_board_links">
-            <span>
-                <i class="fa fa-file-pdf-o" id="pdf_icon" aria-hidden="true"></i>
+            <div>
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-file-pdf-o fa-stack-1x" id="pdf_icon" aria-hidden="true"></i>
+                </span>
                 <a href="#"> Download CV </a>
-            </span>
-            <span>
-                <i class="fa fa-linkedin" id="linkedIn_icon" aria-hidden="true"></i>
+            </div>
+            
+            <div>
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x" id="linkedIn_icon" aria-hidden="true"></i>
+                </span>
                 <a href="#"> LinkedIn </a>
-            </span>
+            </div>
         </div> <!-- End of .main_board_links -->
+       
     </div> <!-- End of .main_board -->
+    <div class="zigzag_border">
+    </div> <!-- End of .zigzag_border -->
 
 </body>
 </html>
