@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Sans+Pro:300|Hind" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="./js/typed.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="main_board">
@@ -56,7 +56,7 @@
             <a id="project_web">WEB</a>
             <a id="project_info">INFOGRAPHIC</a>
         </div> <!-- End of #display_subtitle -->
-        <div class="content">
+        <div id="content">
             
         </div> <!-- End of .content -->
     </div> <!-- display -->
