@@ -53,7 +53,9 @@ table {
 /*                              GENERAL STYLE                                  */
 
 .main_board_content h1,
-.main_board_links a{
+.main_board_links a,
+.display_title a,
+.display_subtitle a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -73,7 +75,6 @@ table {
     color: #fff;
     font-size: 70px;
     line-height: 1.3;
-    text-shadow: 4px 4px 8px #020202;
 }
 
 .main_board_links{
@@ -116,4 +117,44 @@ table {
     height: 60px;
     background-image: url('../image/zigzag.png');
     margin-top: -37px;
+}
+
+/*                                 DISPLAY                                    */
+.display_title{
+    text-align: center;
+    margin-top: 8%;
+}
+.display_title a{
+    font-size: 36px;
+    font-weight: lighter;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.display_title a:last-child:hover{
+    color: #45798c;
+}
+
+.display_title a:last-child{
+    margin-left: 20%;
+}
+
+.display_subtitle{
+    margin-left: 27%;
+    margin-top: 2%;
+}
+
+.display_subtitle a{
+    font-size: 30px;
+    font-weight: lighter;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.display_subtitle a:last-child{
+    margin-left: 7%;
+}
+
+.display_subtitle a:hover{
+    color: #45798c;
 }

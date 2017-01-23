@@ -46,6 +46,20 @@
     </div> <!-- End of .main_board -->
     <div class="zigzag_border">
     </div> <!-- End of .zigzag_border -->
+    
+    <div class="display">
+        <div class="display_title">
+            <a>PROJECTS</a>
+            <a>ABOUT</a>
+        </div> <!-- End of #display_title -->
+        <div class="display_subtitle">
+            <a id="project_web">WEB</a>
+            <a id="project_info">INFOGRAPHIC</a>
+        </div> <!-- End of #display_subtitle -->
+        <div class="content">
+            
+        </div> <!-- End of .content -->
+    </div> <!-- display -->
 
 </body>
 </html>
