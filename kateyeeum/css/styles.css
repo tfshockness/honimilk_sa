@@ -140,7 +140,7 @@ table {
 }
 
 .display_subtitle{
-    margin-left: 27%;
+    margin-left: 26%;
     margin-top: 2%;
 }
 
@@ -157,4 +157,26 @@ table {
 
 .display_subtitle a:hover{
     color: #45798c;
+}
+
+/*                                 WEB.PHP                                    */
+
+.display_all_projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.each_project{
+        border: 1px solid #999999;
+    /* width: 36%; */
+    /* height: 253px; */
+    width: 31%;
+    /* background: #fff; */
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.each_project img {
+    margin: 13% 24%;
 }

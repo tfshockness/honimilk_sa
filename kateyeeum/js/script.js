@@ -4,7 +4,8 @@ var link_web = document.getElementById('project_web');
 var content = document.getElementById('content');
 
 var xhr = new XMLHttpRequest();
-link_web.addEventListener("click",function(){
+link_web.addEventListener('click', function(e){
+    e.preventDefault();
     xhr.open("GET","web.php",true);
     xhr.onreadystatechange = function(){
         if(xhr.readyState === 4 &&
