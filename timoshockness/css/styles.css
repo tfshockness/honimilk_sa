@@ -26,6 +26,24 @@ and open the template in the editor.
      clear: both;
  }
  
+ .f_sans{
+      font-family: 'Open Sans', sans-serif;
+ }
+ .f_roboto {
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .f_orbitron {
+     font-family: 'Orbitron', sans-serif;
+ }
+ 
+ .f_lato {
+     font-family: 'Lato', sans-serif;
+ }
+ 
+
+
+
 /************** NAV ***************/
 .navigation{
     background:#fff;
@@ -49,12 +67,15 @@ and open the template in the editor.
     text-transform: uppercase;
     -webkit-transition: color .1s;
     transition: color .1s;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .navigation ul{ 
     list-style:none;
     text-decoration:none;
+    width: 90%;
+    margin: 0 auto;
  }
  
 .wrap-nav{
@@ -263,8 +284,9 @@ and open the template in the editor.
 .wrap_ic ul {
     list-style:none;
     text-decoration:none;
-    width: 100%;
+    width: 90%;
     overflow: auto;
+    margin: 0 auto;
 }
 
 .menu_ic_list li{
@@ -286,10 +308,12 @@ and open the template in the editor.
     text-transform: uppercase;
     -webkit-transition: color .1s;
     transition: color .1s;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu_ic_list img{
-    width: 80%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    width: 65%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+    text-align: center;
 }

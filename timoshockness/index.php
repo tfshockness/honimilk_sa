@@ -15,6 +15,7 @@ and open the template in the editor.
         <meta name="og:url" content="http://www.timoshockness.com" />
            <!--End-of-Meta-Tag-->
         <title>Timoteo Shockness. Web Design and Web Developer. Personal Portfolio.</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -22,8 +23,8 @@ and open the template in the editor.
         <div id="content">
             <section class="hello_world">
                 <div class="intro">
-                    <h1>Hello World,</h1>
-                    <h2>My name is Timoteo Shockness. <br /> I'm Front End Developer.</h2>
+                    <h1 class="f_orbitron">Hello World,</h1>
+                    <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm Front End Developer.</h2>
                     <p>Maybe put something with the writing plugin over here.</p>
                 </div>   
             </section>

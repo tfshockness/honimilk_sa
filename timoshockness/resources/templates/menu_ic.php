@@ -1,5 +1,5 @@
 <section class="more_about_me">
-    <h2>More about me</h2>
+    <h2 class="f_roboto">More about me</h2>
     <nav class="navigation_ic">
         <div class="wrap_ic">
             <ul class="menu_ic_list">
