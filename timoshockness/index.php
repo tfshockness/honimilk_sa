@@ -44,7 +44,7 @@ and open the template in the editor.
             </section>
             <section id="contact">
                 <div>
-                    <h2 class="f_sans contact_title">Contact me</h2>
+                    <h2 class="f_sans title contact_title">Contact me</h2>
                     <div class="center_div" id="contact_content">
                     <span id="error" class="f_lato"></span>
                         <?php include_once 'resources/sections/contact.php'; ?>

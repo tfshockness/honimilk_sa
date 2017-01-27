@@ -1,5 +1,5 @@
-<div class="dev_img skill_section">
+<div class="skill_section">
     <div>
-        <h1 class="skills_title f_roboto">Development</h1>
+        <h1 class="title skills_title f_sans">Proficiency</h1>
     </div>
 </div>

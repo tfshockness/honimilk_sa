@@ -41,6 +41,12 @@ and open the template in the editor.
      font-family: 'Lato', sans-serif;
  }
  
+.title {
+    text-align: center;
+    font-size:3em;
+    padding-top: 30px; 
+}
+ 
 .right {
     float:right;
 }
@@ -176,6 +182,19 @@ and open the template in the editor.
     transition: border .1s ease-in;
 }
 
+.career_active{
+    border-bottom: 3px solid #138BC4;
+    color: #138BC4;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.career_active a{
+    color: #138BC4;
+}
+
 .main_menu_list #li_portifolio:hover{
     border-bottom: 3px solid #F0B14E;
     color: #F0B14E;
@@ -185,6 +204,19 @@ and open the template in the editor.
     transition: border .1s ease-in;
 }
 
+.portifolio_active{
+    border-bottom: 3px solid #F0B14E;
+    color: #F0B14E;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.portifolio_active a{
+    color: #F0B14E;
+}
+
 .main_menu_list #li_contact:hover{
     border-bottom: 3px solid #CAC3AB;
     color: #CAC3AB;
@@ -192,6 +224,19 @@ and open the template in the editor.
     -moz-transition: border .1s ease-in;
     -o-transition: border .1s ease-in;
     transition: border .1s ease-in;
+}
+
+.contact_active{
+    border-bottom: 3px solid #CAC3AB;
+    color: #CAC3AB;
+    -webkit-transition: border .1s ease-in;
+    -moz-transition: border .1s ease-in;
+    -o-transition: border .1s ease-in;
+    transition: border .1s ease-in;
+}
+
+.contact_active a{
+    color: #CAC3AB;
 }
 
 .menu_ic_list #li_skills:hover{
@@ -371,35 +416,78 @@ and open the template in the editor.
 }
 
 .skills_title{
-    padding-top:20px;
-    font-size: 3em;
-    color: #000;
-    letter-spacing: 4px;
+    color: #308080;
 }
 
-.skill_section{
-
-}
-.ops_img {
-   
-}
 /************** Qualifications ***************/
 #qualifications {
     height: 600px;
     width: 100%;
 }
 
+.qualification_title{
+    color:#314980
+}
 /************** Career ***************/
 #career {
     background-color:#F4F4F4; 
     height: 600px;
     width: 100%;
+    color: #138BC4;
+}
+.job_position_title{
+    font-weight: bold;
+}
+.career_title{
+    color:#138BC4;
 }
 
+.wraper{
+    margin-top:90px;
+    margin-left: 10%;
+}
+
+.career_row {
+    width: 100%;
+}
+
+.job_position_right{
+    float:right;
+    width: 49%;
+}
+
+.job_position_left{
+    width: 49%;
+    float: left;
+}
+
+.career_img{
+    float:left;
+    width: 40%;
+}
+
+.career_description{
+    float: right;
+    width: 59%;
+}
+
+.career_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.career_description img{
+    width: 25px;
+    height: 25px;
+}
 /************** Portifolio ***************/
 #portifolio {
     height: 600px;
     width: 100%;
+}
+
+.portifolio_title{
+    color:#F0B14E;
 }
 
 /************** Contact ***************/
@@ -410,15 +498,13 @@ and open the template in the editor.
 }
 
 .contact_title{
-    text-align: center;
     color:#CAC3AB;
-    font-size:3em;
-    padding-top: 30px;
 }
+
 .center_div{
     width: 60%;
     margin: 0 auto;
-    margin-top: 180px;
+    margin-top: 120px;
 }
 
 .center_div span{
@@ -450,15 +536,16 @@ form{
 legend{
     color:#CAC3AB;
     line-height: 1.5em;
+    word-spacing: 1.5px;
     text-align: initial;
     padding-bottom: 2%;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
 
 }
 
 input[type=text], input[type=email]{
-    width: 350px;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -505,4 +592,210 @@ input[type=button]:hover{
     background-color: #fff;
     color: #CAC3AB;;
     border:1px solid #CAC3AB;;
+}
+
+
+
+
+
+/***** Help Tip *******/
+#sesi:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#sesi p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #138BC4;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#sesi p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#138BC4;
+	right:10px;
+	top:-12px;
+}
+
+#sesi p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+#odebrecht:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#odebrecht p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #138BC4;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	right: 170px;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#odebrecht p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#138BC4;
+	right:10px;
+	top:-12px;
+}
+
+#odebrecht p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+#ancar:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#ancar p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #138BC4;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#ancar p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#138BC4;
+	right:10px;
+	top:-12px;
+}
+
+#ancar p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+
+/******************** FINISH ********************/
+#kantukan:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#kantukan p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #138BC4;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	right: 170px;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#kantukan p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#138BC4;
+	right:10px;
+	top:-12px;
+}
+
+#kantukan p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/* CSS animation */
+
+@-webkit-keyframes fadeIn {
+	0% { 
+		opacity:0; 
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity:100%;
+		transform: scale(1);
+	}
+}
+
+@keyframes fadeIn {
+	0% { opacity:0; }
+	100% { opacity:100%; }
 }

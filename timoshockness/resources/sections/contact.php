@@ -1,5 +1,5 @@
-<form method="get">
-    <legend>Send me an email, and tell me about your project.</legend>
+<form method="get" class="f_sans">
+    <legend>Send me an email, let's talk!</legend>
     <div class="left contact-left">
         <label for="name">Your name:</label>
         <br />

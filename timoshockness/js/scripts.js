@@ -20,13 +20,16 @@
     }
   });
 });
-//End function menu
-
-
-var menu = document.getElementById('body');
+//Create the logic for put active class on the menu. (NEED TO DO IT)
+var body = document.getElementById('body');
+var skills = document.getElementById('li_skills');
+var qualifications = document.getElementById('li_qualifications');
+var career = document.getElementById('li_career');
+var portifolio = document.getElementById('li_portifolio');
+var contact = document.getElementById('li_contact');
 
 window.addEventListener('scroll', function(){
-    var scroll = menu.scrollTop;
+    var scroll = body.scrollTop;
     var nav = document.getElementById('nav');
     if(scroll <= 853){
         //Hide
@@ -40,6 +43,9 @@ window.addEventListener('scroll', function(){
 
 });
 
+
+
+//End function menu
 //Contact Function
     var content = document.getElementById('contact_content');
     var submit = document.getElementById('submit');
