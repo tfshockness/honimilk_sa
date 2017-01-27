@@ -120,6 +120,13 @@ table {
 }
 
 /*                                 DISPLAY                                    */
+
+.display{
+    width: 93%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .display_title{
     text-align: center;
     margin-top: 8%;
@@ -149,6 +156,7 @@ table {
     font-weight: lighter;
     display: inline-block;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .display_subtitle a:last-child{
@@ -164,19 +172,61 @@ table {
 .display_all_projects{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 15%;
+    margin-top: 6%;
 }
 
-.each_project{
-        border: 1px solid #999999;
-    /* width: 36%; */
-    /* height: 253px; */
-    width: 31%;
-    /* background: #fff; */
-    padding: 30px;
-    margin-bottom: 30px;
-    
+.each_project{    
+    border: 1px solid #999999;
+    width: 34%;
+    background: #fff;
+    padding: 56px 17px;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.each_project:hover img{
+    opacity: 0.1;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }
 
 .each_project img {
-    margin: 13% 24%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.each_project:nth-of-type(2n){
+    margin-left: 10%;
+}
+
+/*                                 INFO.PHP                                    */
+.each_project_info{    
+    border: 1px solid #cecece;
+    width: 34%;
+    background: #fff;
+    padding: 1px 31px;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.each_project_info:hover img{
+    opacity: 0.5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.each_project_info img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.each_project_info:nth-of-type(2n){
+    margin-left: 10%;
 }

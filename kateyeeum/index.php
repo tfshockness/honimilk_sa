@@ -39,10 +39,9 @@
         </div> <!-- End of #display_title -->
         <div class="display_subtitle">
             <a href="#" id="project_web">WEB</a>
-            <a id="project_info">INFOGRAPHIC</a>
+            <a href="#" id="project_info">INFOGRAPHIC</a>
         </div> <!-- End of #display_subtitle -->
         <div id="content">
-            <?php include 'web.php' ?>
         </div> <!-- End of .content -->
     </div> <!-- display -->
     <script src="js/script.js" type="text/javascript"></script>
