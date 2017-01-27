@@ -18,23 +18,43 @@ and open the template in the editor.
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-        <?php// include_once 'resources/templates/menu_top.php'; ?>
+    <body id="body">
+        <?php include_once 'resources/templates/menu_top.php'; ?>
         <div id="content">
             <section class="hello_world">
                 <div class="intro">
-                    <h1 class="f_orbitron">Hello World,</h1>
+                    <h1 class="f_orbitron"><span>></span> Hello World<span> _</span></h1>
                     <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm Front End Developer.</h2>
                     <p>Maybe put something with the writing plugin over here.</p>
                 </div>   
             </section>
 <!--            Includinig the Icons Menu      -->
         <?php include_once 'resources/templates/menu_ic.php'; ?>
-            <section class="skills">
+            <section id="skills">
+                <?php include_once 'resources/sections/skills.php'; ?>
+            </section>
+            <section id="qualifications">
+                <?php include_once 'resources/sections/qualifications.php'; ?>
+            </section>
+            <section id="career">
+                <?php include_once 'resources/sections/career.php'; ?>
+            </section>
+            <section id="portifolio">
+                <?php include_once 'resources/sections/portifolio.php'; ?>
+            </section>
+            <section id="contact">
+                <div>
+                    <h2 class="f_sans contact_title">Contact me</h2>
+                    <div class="center_div" id="contact_content">
+                    <span id="error" class="f_lato"></span>
+                        <?php include_once 'resources/sections/contact.php'; ?>
+                    </div>
+                </div>
             </section>
         </div>
         <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     </body>
 </html>
