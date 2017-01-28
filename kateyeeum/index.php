@@ -35,7 +35,7 @@
     <div class="display">
         <div class="display_title">
             <a>PROJECTS</a>
-            <a>ABOUT</a>
+            <a href="#" id="ajax_about">ABOUT</a>
         </div> <!-- End of #display_title -->
         <div class="display_subtitle">
             <a href="#" id="project_web">WEB</a>
