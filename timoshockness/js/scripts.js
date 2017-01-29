@@ -40,7 +40,42 @@ window.addEventListener('scroll', function(){
         nav.classList.add('show');
         nav.classList.remove('hide');
     }
-
+    if(scroll >= 1118 ){
+        skills.classList.add('skills_active');
+        qualifications.classList.remove('qualifications_active');
+        career.classList.remove('career_active');
+        portifolio.classList.remove('portifolio_active');
+        contact.classList.remove('contact_active');
+    }
+    if(scroll >= 1716){
+        qualifications.classList.add('qualifications_active');
+        skills.classList.remove('skills_active');
+        career.classList.remove('career_active');
+        portifolio.classList.remove('portifolio_active');
+        contact.classList.remove('contact_active');
+        
+    }
+    if(scroll >= 2311){
+        career.classList.add('career_active');
+        qualifications.classList.remove('qualifications_active');
+        skills.classList.remove('skills_active');
+        portifolio.classList.remove('portifolio_active');
+        contact.classList.remove('contact_active');
+    }
+        if(scroll >= 2913){
+        career.classList.remove('career_active');
+        qualifications.classList.remove('qualifications_active');
+        skills.classList.remove('skills_active');
+        portifolio.classList.add('portifolio_active');
+        contact.classList.remove('contact_active');
+    }
+        if(scroll >= 3496){
+        career.classList.remove('career_active');
+        qualifications.classList.remove('qualifications_active');
+        skills.classList.remove('skills_active');
+        portifolio.classList.remove('portifolio_active');
+        contact.classList.add('contact_active');
+    }
 });
 
 

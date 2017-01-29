@@ -24,8 +24,7 @@ and open the template in the editor.
             <section class="hello_world">
                 <div class="intro">
                     <h1 class="f_orbitron"><span>></span> Hello World<span> _</span></h1>
-                    <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm Front End Developer.</h2>
-                    <p>Maybe put something with the writing plugin over here.</p>
+                    <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm a Front End Developer.</h2>
                 </div>   
             </section>
 <!--            Includinig the Icons Menu      -->
@@ -50,6 +49,9 @@ and open the template in the editor.
                         <?php include_once 'resources/sections/contact.php'; ?>
                     </div>
                 </div>
+            </section>
+            <section id="footer">
+                <?php include_once 'resources/sections/footer.php' ?>
             </section>
         </div>
         <!-- Scripts -->

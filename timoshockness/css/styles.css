@@ -16,7 +16,8 @@ and open the template in the editor.
      padding: 0;
  }
  html {
-     max-width: 1480px;
+     max-width: 1420px;
+     margin:0 auto;
  }
  a {
      text-decoration: none;
@@ -46,6 +47,12 @@ and open the template in the editor.
     font-size:3em;
     padding-top: 30px; 
 }
+
+.wraper{
+    margin-top:90px;
+    margin-left: 10%;
+}
+
  
 .right {
     float:right;
@@ -140,7 +147,7 @@ and open the template in the editor.
     transition: border .1s ease-in;
 
 }
-.skill_active{
+.skills_active{
     border-bottom: 3px solid #308080;
     color: #308080;
     -webkit-transition: border .1s ease-in;
@@ -148,7 +155,7 @@ and open the template in the editor.
     -o-transition: border .1s ease-in;
     transition: border .1s ease-in;
 }
-.skill_active a{
+.skills_active a{
     color: #308080;
 }
 
@@ -297,7 +304,33 @@ and open the template in the editor.
     opacity: 1;
     transition: visibility .1s, opacity .1s ease;
 }
+/******** MEDIA QUERY FONTS INTRO *******/
+@media only screen and (max-width:1800px){
+    .intro h1{
+        font-size:4em;
+    }
+    .intro h2{
+        font-size: 3em;
+    }
+}
 
+@media only screen and (max-width:1500px){
+    .intro h1{
+        font-size:3.5em;
+    }
+    .intro h2{
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width:1200px){
+        .intro h1{
+        font-size:3em;
+    }
+    .intro h2{
+        font-size:2em;
+    }
+}
 /************** INTRO ***************/
 
 .hello_world {
@@ -315,29 +348,28 @@ and open the template in the editor.
     -moz-background-repeat: no-repeat;
     -o-background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 660px;
+    height: 40em;
 }
 .intro {
     margin:0 auto;
     width: 60%;
-    padding-top: 15%;
+    padding-top: 20%;
     max-height: 530px;
 }
 
 .intro h1{
-    font-size: 5vw;
     letter-spacing: 2px;
-    color: #00FF00;
+    color: #4C8246;
     text-align: center;
 }
 .intro span{
     color: #fff;
 }
 .intro h2{
-    font-size: 3.5vw;
     letter-spacing: 1.5px;
     color: #fff;
     text-align: center;
+    margin-top:5%
 }
 
 .intro p{
@@ -345,7 +377,7 @@ and open the template in the editor.
     letter-spacing: 1px;
     color: #fff;
     text-align: center;
-    margin-top: 25%;
+    margin-top: 18%;
 }
 
 
@@ -414,19 +446,43 @@ and open the template in the editor.
     width: 100%;
     height: 600px;
 }
-
+.skill_wraper{
+    margin-top: 50px;
+    width: 100%;
+}
 .skills_title{
     color: #308080;
 }
 
+.skills_row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skill{
+    width: 25%;;
+}
+
+.skill img{
+    width: 50%;
+    min-width: 110px;
+    margin-left:23%;
+}
+
+.skill h4{
+    text-align: center;
+    font-weight: bold;
+    color:#308080;
+}
 /************** Qualifications ***************/
 #qualifications {
-    height: 600px;
     width: 100%;
+    overflow:auto;
+    color:#314980;
 }
 
 .qualification_title{
-    color:#314980
+    color:#314980;
 }
 /************** Career ***************/
 #career {
@@ -440,11 +496,6 @@ and open the template in the editor.
 }
 .career_title{
     color:#138BC4;
-}
-
-.wraper{
-    margin-top:90px;
-    margin-left: 10%;
 }
 
 .career_row {
@@ -594,11 +645,17 @@ input[type=button]:hover{
     border:1px solid #CAC3AB;;
 }
 
+/************** footer ***************/
+
+.footer{
+    background-color:#06214C;
+    height: 300px;
+    width: 100%;
+}
 
 
+/***** Help Tip For Career*******/
 
-
-/***** Help Tip *******/
 #sesi:hover p{
 	display:block;
 	transform-origin: 100% 0%;
@@ -780,6 +837,339 @@ input[type=button]:hover{
 	top:-40px;
 	left:0;
 }
+
+/********** End of Help Tips for Career ************/
+
+/*********** Help Tips for Qualification ***********/
+
+#uniron:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#uniron p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#uniron p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#uniron p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#unisul:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#unisul p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#unisul p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#unisul p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#bcit:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#bcit p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: 7%;
+}
+
+#bcit p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#bcit p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#mcp:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#mcp p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: -27%;
+}
+
+#mcp p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#mcp p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#w7:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#w7 p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: -30%;
+}
+
+#w7 p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#w7 p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#network:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#network p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: -30%;
+}
+
+#network p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#network p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
+
+#ad:hover p{
+	display:block;
+	transform-origin: 100% 0%;
+
+	-webkit-animation: fadeIn 0.3s ease-in-out;
+	animation: fadeIn 0.3s ease-in-out;
+
+}
+
+#ad p{	/* The tooltip */
+	display: none;
+	text-align: left;
+	background-color: #314980;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.4;
+        margin-top: -30%;
+}
+
+#ad p:before{ /* The pointer of the tooltip */
+	position: absolute;
+	content: '';
+	width:0;
+	height: 0;
+	border:6px solid transparent;
+	border-bottom-color:#314980;
+	right:10px;
+	top:-12px;
+}
+
+#ad p:after{ /* Prevents the tooltip from being hidden */
+	width:100%;
+	height:40px;
+	content:'';
+	position: absolute;
+	top:-40px;
+	left:0;
+}
+
+/******************** FINISH ********************/
+
 
 /* CSS animation */
 

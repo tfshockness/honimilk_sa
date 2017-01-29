@@ -8,7 +8,7 @@
                 <img src="./img/content/career/sesi.png" alt="Servico social da Industria Logo" />
             </div>
             <div class="career_description">
-                <h3>Servico Social da Industria <img src="./img/content/career/brazil.png" alt="Brazil flag" /></h3>
+                <h3>Servico Social da Industria <img src="./img/content/flags/brazil.png" alt="Brazil flag" /></h3>
                 <span>SET 2008 - MAY 2011</span><br />
                 <span class="job_position_title">Computer Technician</span>
             </div>
@@ -22,7 +22,7 @@
                 <img src="./img/content/career/odebrecht.png" alt="Construtora Odebrecht Logo" />
             </div>
             <div class="career_description">
-                <h3>Odebrecht SA <img src="./img/content/career/brazil.png" alt="Brazil flag" /></h3>
+                <h3>Odebrecht SA <img src="./img/content/flags/brazil.png" alt="Brazil flag" /></h3>
                 <span>JUN 2011 - FEB 2015</span><br />
                 <span class="job_position_title">Support Analyst</span>
             </div>
@@ -38,7 +38,7 @@
                 <img src="./img/content/career/ancar.png" alt="Ancar Ivanhoe Logo" />
             </div>
             <div class="career_description">
-                <h3>Ancar Ivanhoe <img src="./img/content/career/brazil.png" alt="Brazil flag" /></h3>
+                <h3>Ancar Ivanhoe <img src="./img/content/flags/brazil.png" alt="Brazil flag" /></h3>
                 <span>MAY 2016 - AUG 2016</span><br />
                 <span class="job_position_title">I.T Analyst</span>
             </div>
@@ -52,7 +52,7 @@
                 <img src="./img/content/career/Kantukan.png" alt="Kantukan Logo" />
             </div>
             <div class="career_description">
-                <h3>Kantukan <img src="./img/content/career/korea.png" alt="Korea flag" /></h3>
+                <h3>Kantukan <img src="./img/content/flags/korea.png" alt="Korea flag" /></h3>
                 <span>NOV 2016</span><br />
                 <span class="job_position_title">Freelance as Front-End Developer</span>
             </div>
@@ -60,7 +60,4 @@
                 JavaScript and PHP for a large store in Korea.</p>
         </div>
     </div>
-</div>
-<div class="help-tip">
-
 </div>
