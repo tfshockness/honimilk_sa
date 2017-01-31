@@ -383,7 +383,7 @@ and open the template in the editor.
 
 /****** TOP ICON ********/
 .go_top{
-    background-color: #06214c;
+    background-color: #354b60;
     width: 40px;
     height: 37px;
     border-radius: 50%;
@@ -393,6 +393,10 @@ and open the template in the editor.
 }
 .go_top a{
     color: #fff;
+}
+
+.go_top a:hover{
+    color: #ced9e4;
 }
 .go_top div{
     margin-top: 8px;
@@ -691,7 +695,7 @@ input[type=button]:hover{
 }
 
 .resume_ic a:hover{
-    color: #0008ff;
+    color: #adc0d2;
     font-size: 110%;
 }
 
@@ -717,12 +721,14 @@ input[type=button]:hover{
     margin-left: 3%;
 }
 .list_ic a:hover{
-    color:#0008ff;
+    color:#adc0d2;
 }
 .copyright {
     font-size:12px;
     text-align: center;
     padding-top: 5px;
+    font-weight: bold;
+    color:#6b8dae;
 }
 /***** Help Tip For Career*******/
 
