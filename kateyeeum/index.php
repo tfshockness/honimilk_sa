@@ -42,6 +42,7 @@
             <a href="#" id="project_info">INFOGRAPHIC</a>
         </div> <!-- End of #display_subtitle -->
         <div id="content">
+            <?php include 'info.php'; ?>
         </div> <!-- End of .content -->
     </div> <!-- display -->
     <script src="js/script.js" type="text/javascript"></script>

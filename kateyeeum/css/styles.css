@@ -385,3 +385,17 @@ i.fa.fa-twitter.fa-2x {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
+
+
+/* Light Box*/
+
+.lightbox{
+    width: 85%;
+    background-color: #fff;
+}
+
+p.info_project{
+    display: none;
+}
