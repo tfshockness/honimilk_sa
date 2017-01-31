@@ -49,7 +49,7 @@
 
         <div class="job_position_right" id="kantukan">
             <div class="career_img" style="margin-top:15px;">
-                <img src="./img/content/career/Kantukan.png" alt="Kantukan Logo" />
+                <img src="./img/content/career/kantukan.png" alt="Kantukan Logo" />
             </div>
             <div class="career_description">
                 <h3>Kantukan <img src="./img/content/flags/korea.png" alt="Korea flag" /></h3>
