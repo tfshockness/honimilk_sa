@@ -9,10 +9,10 @@
         </div>
         <div class="list_ic">
             <ul>
-                <li><a href="//facebook.com/timoteo.shockness" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></li>
-                <li><a href="//www.instagram.com/timoteoshockness/" target="_blank"><i class="fa fa-instagram fa-lg"></i></li>
-                <li><a href="//linkedin.com/in/timoteo-shockness-0b903349" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></li>
-                <li><a href="//github.com/tfshockness" target="_blank"><i class="fa fa-github fa-lg"></i></li>
+                <li><a href="//facebook.com/timoteo.shockness" target="_blank"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+                <li><a href="//www.instagram.com/timoteoshockness/" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+                <li><a href="//linkedin.com/in/timoteo-shockness-0b903349" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+                <li><a href="//github.com/tfshockness" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
             </ul>
         </div>
         
