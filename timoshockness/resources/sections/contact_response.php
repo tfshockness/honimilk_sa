@@ -7,11 +7,11 @@ require_once('../library/class.smtp.php');
 			$mail = new PHPMailer();
 			$mail->IsSMTP();
 			$mail->SMTPAuth = true;
-			$mail->Host = "smtpout.secureserver.net";
-			$mail->Port = "80";
+			$mail->Host = "mail.timoshockness.com";
+			$mail->Port = "26";
 			// $mail->SMTPSecure = 'ssl';
-			$mail->Username = "hello@timoshockness.com";
-			$mail->Password = "1599@Hello";
+			$mail->Username = "support@timoshockness.com";
+			$mail->Password = "1599@Support";
 
 			//Catching the msg informations
 			$name = $_GET['name'];
@@ -23,7 +23,7 @@ require_once('../library/class.smtp.php');
 			$my_email = "timoteo.ppt@gmail.com";
 
 			//Function to sent the e-mail
-			$mail->From = "hello@timoshockness.com";
+			$mail->From = "support@timoshockness.com";
 			$mail->FromName = "Timoshockness.com Website";
 			$mail->Subject = "New contact from your website";
 			$mail->Body = "The follow message was sent from your website.<br />Name: ".$name. "<br />E-mail: ".$email."<br />Message: ".$message;

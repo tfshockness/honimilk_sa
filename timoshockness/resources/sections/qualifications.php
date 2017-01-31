@@ -12,9 +12,7 @@
                 <span>2009 - 2011</span><br />
                 <span class="job_position_title">Uniao das Escolas Superiores de Rondonia</span>
             </div>
-            <p>Responsible for maintaining and installing hardware, software,
-                and network. Provide technical assistance and support for incoming queries and issues to Windows
-                systems, software, and local network.</p>
+            <p>Build fundamental knowledge of network operating systems, internetworking technologies, computer network security and PC hardware. Studies include local and wireless networks, network management, enterprise networking concepts and professional and business topics.</p>
         </div>
 
         <div class="job_position_right" id="unisul">
@@ -26,9 +24,7 @@
                 <span>2014 - 2015</span><br />
                 <span class="job_position_title">Universidade do Sul de Santa Catarina</span>
             </div>
-            <p>Provide technical support to users on various technical issues, and
-                responsible for responding, documenting, and solving service tickets according to the service level
-                agreement. Responsible for recommending procedures and controls for problem prevention.</p>
+            <p>IT project management includes overseeing projects for software development, hardware installations, network upgrades, cloud computing and virtualization rollouts, business analytics and data management projects and implementing IT services, based in methodologies from PMP, ITIL and PMBOK.</p>
         </div>
     </div>
 
@@ -42,9 +38,7 @@
                 <span>2017 - 2018</span><br />
                 <span class="job_position_title">British Columbia institute of Technology</span>
             </div>
-            <p>Responsible for developing and implement cost-effective and efficient solutions
-                for user support on technical issues. Provide support and inventory control for applications. Provide
-                evaluation of system specifications for business requirements and development of computer solution.</p>
+            <p>The focus of this credential is software development via multiple object oriented programming languages, Java, C and C++ plus computer architecture, relational database design and website development. Students also learn skills in business, communication and mathematics.</p>
         </div>
     </div>
 </div>

@@ -17,6 +17,7 @@ and open the template in the editor.
         <title>Timoteo Shockness. Web Design and Web Developer. Personal Portfolio.</title>
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="https://use.fontawesome.com/185e0bd75a.js"></script>
     </head>
     <body id="body">
         <?php include_once 'resources/templates/menu_top.php'; ?>
@@ -27,6 +28,13 @@ and open the template in the editor.
                     <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm a Front End Developer.</h2>
                 </div>   
             </section>
+            <div class="go_top hide" id="top">
+                <div>
+                    <a href="#body">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
 <!--            Includinig the Icons Menu      -->
         <?php include_once 'resources/templates/menu_ic.php'; ?>
             <section id="skills">

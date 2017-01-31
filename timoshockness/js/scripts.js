@@ -31,7 +31,7 @@ var contact = document.getElementById('li_contact');
 window.addEventListener('scroll', function(){
     var scroll = body.scrollTop;
     var nav = document.getElementById('nav');
-    if(scroll <= 853){
+    if(scroll <= 825){
         //Hide
         nav.classList.add('hide');
         nav.classList.remove('show');
@@ -47,7 +47,7 @@ window.addEventListener('scroll', function(){
         portifolio.classList.remove('portifolio_active');
         contact.classList.remove('contact_active');
     }
-    if(scroll >= 1716){
+    if(scroll >= 1580){
         qualifications.classList.add('qualifications_active');
         skills.classList.remove('skills_active');
         career.classList.remove('career_active');
@@ -55,21 +55,21 @@ window.addEventListener('scroll', function(){
         contact.classList.remove('contact_active');
         
     }
-    if(scroll >= 2311){
+    if(scroll >= 2857){
         career.classList.add('career_active');
         qualifications.classList.remove('qualifications_active');
         skills.classList.remove('skills_active');
         portifolio.classList.remove('portifolio_active');
         contact.classList.remove('contact_active');
     }
-        if(scroll >= 2913){
+        if(scroll >= 3420){
         career.classList.remove('career_active');
         qualifications.classList.remove('qualifications_active');
         skills.classList.remove('skills_active');
         portifolio.classList.add('portifolio_active');
         contact.classList.remove('contact_active');
     }
-        if(scroll >= 3496){
+        if(scroll >= 3960){
         career.classList.remove('career_active');
         qualifications.classList.remove('qualifications_active');
         skills.classList.remove('skills_active');
@@ -78,9 +78,22 @@ window.addEventListener('scroll', function(){
     }
 });
 
-
-
 //End function menu
+//Top Fixed Function
+window.addEventListener('scroll', function(){
+   var top_btn = document.getElementById('top');
+   var scroll = body.scrollTop;
+   
+   if(scroll > 800){
+       top_btn.classList.remove('hide');
+       top_btn.classList.add('show');
+   }else{
+       top_btn.classList.remove('show');
+       top_btn.classList.add('hide');
+   }
+});
+
+
 //Contact Function
     var content = document.getElementById('contact_content');
     var submit = document.getElementById('submit');
