@@ -41,8 +41,6 @@
             <p class="main_blurb"> UX / SEO / Responsive </p>
             <p class="main_blurb"> Photoshop / Illustrator </p>
         </div> <!-- End of #content -->
-        <div id="modal_project">
-        </div> <!-- End of #modal_project -->
     </div> <!-- display -->
     <script src="js/script.js" type="text/javascript"></script>
 </body>

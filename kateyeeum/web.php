@@ -14,5 +14,7 @@
                 <img src="image/web_cover/<?php echo $webProject->img ?>" >
             </div> <!-- End of .each_project -->
     <?php } ?>
+            <div class="modal_project">
+            </div> <!-- End of .modal_project -->
 </div> <!-- End of .display_all_projects -->
 

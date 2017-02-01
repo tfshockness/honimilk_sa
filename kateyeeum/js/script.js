@@ -1,9 +1,12 @@
+/* global e */
+
 //JS
 
 var link_web = document.getElementById('project_web');
 var link_info = document.getElementById('project_info');
 var link_about = document.getElementById('ajax_about');
 var content = document.getElementById('content');
+
 
 var xhr = new XMLHttpRequest();
 link_web.addEventListener('click', function(e){
@@ -47,61 +50,21 @@ link_about.addEventListener("click",function(e){
 
 //        LIGHT BOX    - INFO        //
 
+function getAjax(url, Newcontent){
+    var ajax = new XMLHttpRequest();
+    ajax.open('GET', url);
+    ajax.onreadystatechange = function () {
+        if (ajax.readyState == 4 && ajax.status == 200){
+            Newcontent.innerHTML = ajax.responseText;
+        }
+    }
+    ajax.send();
+} //sample
 
-    
-$(document).ready(function(){
-    console.log('jquery working');
-$('.click_project').click(function(e){
-    var phpTag = "$infoProject['description']";
-    $('body').css('overflow-y','hidden');  //hide scrollbar
-    $('<div class="overlay"></div>')
-            .css({
-                'background-color' : '#000',
-                'position' : 'fixed',
-                'top' : 0,
-                'left' : 0,
-                'width' : '100%',
-                'height' : '100%',
-                'opacity' : 0
-            })//css
-            
-            .animate({'opacity':0.5},'slow')
-            .appendTo('body');
-    $('<div class="lightbox"><p class="info_description">'+'\<?='+phpTag+'?\>'+'<p></div>')
-            .hide()
-            .appendTo('body');
-    $('<img>')
-            .attr('src',$(this).attr('href'))
-            .load(function(){
-                positionLightboxImage();
-            })//load(function)
-            .click(function(){
-                removeLightbox();
-            })//click(function)
-            .appendTo('.lightbox');
-            return false;
-});//click(function)
+function openDetail(){
+    var modal_content = document.getElementById('modal_project');
+    console.log(modal_content);
+    getAjax('modal_info.php', modal_content);
+    console.log('works');
 
-function positionLightboxImage(){
-    $('.lightbox')
-            .center()
-            .fadeIn();
-}; // positionLightboxImage
-
-function removeLightbox(){
-    $('.overlay, .lightbox')
-            .fadeOut('slow', function(){
-                $(this).remove();
-                $('body').css('overflow-y',auto);
-            });//fadeout(function)
-};// removeLightbox
-
-jQuery.fn.center = function(){
-  this.css('position','absolute');
-  this.css('top',($(window).height() - this.height()) / 2 + $(window).scrollTop());
-  this.css('left',($(window).width() - this.width()) / 2 + $(window).scrollLeft());
-  return this;
-};//function
-    
-    
-})
+}
