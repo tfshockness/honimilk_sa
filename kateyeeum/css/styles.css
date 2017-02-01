@@ -52,10 +52,10 @@ table {
 
 /*                              GENERAL STYLE                                  */
 
-.main_board_content h1,
 .main_board_links a,
 .display_title a,
-.display_subtitle a,
+#content p.main_blurb_large,
+#content p.main_blurb,
 .timeline_date h3,
 .timeline_text h3,
 .hire_me h2,
@@ -66,48 +66,52 @@ table {
 /*                                 MAIN BOARD                                  */
 
 .main_board{
-    height: 80vh;
-    background-color: #1a1a1a;
+     background-color: #f9f8f4;
+     overflow: hidden;
 }
 
 .main_board_content{
-    text-align: center;
-    padding-top: 10%;
+    padding: 4% 3% 2% 0%;   
+    float: left;
+    width: 54%;
+}
+
+.main_board_content a{
+    text-decoration: none;
 }
 
 .main_board_content h1{
-    color: #fff;
-    font-size: 70px;
-    line-height: 1.3;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #1e1e1e;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-align: center;
+    line-height: 1.2;
 }
 
-.main_board_links{
-    padding-top: 5%;
-    margin: 0 auto;
-}
-
-.main_board_links a{
+/*.main_board_links a{
     text-decoration: none;
     color: #45798c;
     font-size: 40px;
     font-weight: lighter;
     vertical-align: middle;
+}*/
+
+.main_board_links {
+    display: block;
+    padding-left: 43%;
 }
 
 .main_board_links div{
     cursor: pointer;
     font-size: 20px;
     display: inline-block;
-    margin-left: 27%;
 }
 
-.main_board_links div:hover a{
+/*.main_board_links div:hover a{
     color: #0e4b5b;
-}
-
-.main_board_links div:last-child{
-   margin-left: 10%;
-}
+}*/
 
 .main_board_links i#pdf_icon {
     color: #ea5253;
@@ -117,13 +121,36 @@ table {
     color: #2c7cb5;
 }
 
-.zigzag_border{
-    height: 60px;
-    background-image: url('../image/zigzag.png');
-    margin-top: -37px;
+.fa-stack-2x {
+    color: #cccccc;
 }
 
-/*                                 DISPLAY                                    */
+/*                                 LINK                                    */
+
+
+.display_title {
+    float: right;
+    width: 43%;
+    margin-top: 9%;
+}
+
+.display_title a{
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #686868;
+    letter-spacing: 2px;
+}
+
+.display_title a:hover{
+    color: #45798c;
+}
+
+.display_title a:nth-child(2){
+    margin-left: 4%;
+    margin-right: 4%;
+}
 
 .display{
     width: 93%;
@@ -131,46 +158,21 @@ table {
     margin: 0 auto;
 }
 
-.display_title{
+#content p.main_blurb_large{
+    font-size: 50px;
     text-align: center;
-    margin-top: 8%;
-}
-.display_title a{
-    font-size: 36px;
-    font-weight: lighter;
-    display: inline-block;
-    cursor: pointer;
+    margin-top: 13%;
+    line-height: 1.8;
+    letter-spacing: 3px;
 }
 
-.display_title a:last-child:hover{
-    color: #45798c;
+#content p.main_blurb{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: #999999;
 }
-
-.display_title a:last-child{
-    margin-left: 20%;
-}
-
-.display_subtitle{
-    margin-left: 26%;
-    margin-top: 2%;
-}
-
-.display_subtitle a{
-    font-size: 30px;
-    font-weight: lighter;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.display_subtitle a:last-child{
-    margin-left: 7%;
-}
-
-.display_subtitle a:hover{
-    color: #45798c;
-}
-
 /*                                 WEB.PHP                                    */
 
 .display_all_projects{
@@ -391,11 +393,16 @@ i.fa.fa-twitter.fa-2x {
 
 /* Light Box*/
 
-.lightbox{
+/*.lightbox{
     width: 85%;
     background-color: #fff;
 }
 
 p.info_project{
     display: none;
-}
+}*/
+
+
+
+/* Light Box second trial */
+

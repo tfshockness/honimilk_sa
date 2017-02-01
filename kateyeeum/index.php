@@ -6,44 +6,43 @@
 <body>
     <div class="main_board">
         <div class="main_board_content">
-            <h1> Hi, </h1>
-            <h1> I am Kate </h1>
-            <h1> - Web Designer </h1>
-        </div> <!-- End of .main_board_content -->
-        <div class="main_board_links">
-            <div>
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-file-pdf-o fa-stack-1x" id="pdf_icon" aria-hidden="true"></i>
-                </span>
-                <a href="#"> Download CV </a>
-            </div>
-            
-            <div>
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x" id="linkedIn_icon" aria-hidden="true"></i>
-                </span>
-                <a href="#"> LinkedIn </a>
-            </div>
+            <a href="index.php">
+                <h1> KATE YEEUM </h1>
+                <h1> / </h1>
+                <h1> WEB DESIGNER </h1>
+            </a>
+
+            <div class="main_board_links">
+                <div>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-file-pdf-o fa-stack-1x" id="pdf_icon" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-linkedin fa-stack-1x" id="linkedIn_icon" aria-hidden="true"></i>
+                    </span>
+                </div>        
+            </div> <!-- End of .main_board_content -->
         </div> <!-- End of .main_board_links -->
-       
+            <div class="display_title">
+                <a href="#" id="project_web">WEB DEVELOPMENT</a>
+                <a href="#" id="project_info">INFOGRAPHIC</a>
+                <a href="#" id="ajax_about">ABOUT</a>
+            </div> <!-- End of #display_title -->
     </div> <!-- End of .main_board -->
-    <div class="zigzag_border">
-    </div> <!-- End of .zigzag_border -->
-    
+
+
     <div class="display">
-        <div class="display_title">
-            <a>PROJECTS</a>
-            <a href="#" id="ajax_about">ABOUT</a>
-        </div> <!-- End of #display_title -->
-        <div class="display_subtitle">
-            <a href="#" id="project_web">WEB</a>
-            <a href="#" id="project_info">INFOGRAPHIC</a>
-        </div> <!-- End of #display_subtitle -->
         <div id="content">
-            <?php include 'info.php'; ?>
-        </div> <!-- End of .content -->
+            <p class="main_blurb_large"> Vancouver - based web designer. </p>
+            <p class="main_blurb"> HTML5 / CSS3 / JavaScript / jQuery / PHP / WordPress </p>
+            <p class="main_blurb"> UX / SEO / Responsive </p>
+            <p class="main_blurb"> Photoshop / Illustrator </p>
+        </div> <!-- End of #content -->
+        <div id="modal_project">
+        </div> <!-- End of #modal_project -->
     </div> <!-- display -->
     <script src="js/script.js" type="text/javascript"></script>
 </body>
