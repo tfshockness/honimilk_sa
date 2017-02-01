@@ -51,7 +51,7 @@ table {
 /*                              END CSS RESET                                  */
 
 /*                              GENERAL STYLE                                  */
-
+.main_board_content h1,
 .main_board_links a,
 .display_title a,
 #content p.main_blurb_large,
@@ -59,10 +59,22 @@ table {
 .timeline_date h3,
 .timeline_text h3,
 .hire_me h2,
-.hire_contact a{
+.hire_contact a,
+footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    color: #d8d8d8;
+    letter-spacing: 1px;
+    font-weight: 300;
+}*/
 /*                                 MAIN BOARD                                  */
 
 .main_board{
@@ -81,11 +93,10 @@ table {
 }
 
 .main_board_content h1{
-    font-family: 'Ubuntu Condensed', sans-serif;
     color: #1e1e1e;
     font-size: 30px;
-    font-weight: bold;
-    letter-spacing: 8px;
+    font-weight: 900;
+    letter-spacing: 5px;
     text-align: center;
     line-height: 1.2;
 }
@@ -164,6 +175,7 @@ table {
     margin-top: 13%;
     line-height: 1.8;
     letter-spacing: 3px;
+    color: #3f3f3f;
 }
 
 #content p.main_blurb{
@@ -391,23 +403,9 @@ i.fa.fa-twitter.fa-2x {
 
 
 
-/* Light Box*/
+/*    Modal    */
 
-/*.lightbox{
-    width: 85%;
-    background-color: #fff;
-}
-
-p.info_project{
-    display: none;
-}*/
-
-
-
-/* Light Box second trial */
-
-/* The Modal (background) */
-.description_content{
+.modal_ajax_background{
     position: fixed; 
     z-index: 1; 
     padding-top: 100px; 
@@ -420,14 +418,20 @@ p.info_project{
     background-color: rgba(0,0,0,0.4); 
 }
 
-.description_details {
+.modal_ajax {
     background-color: #fefefe;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    border: 1px solid #888;
-    width: 40%;
-    height: 400px;
+    width: 78%;
+}
+.modal_ajax img{
+    float: left;
+    width: 70%;
+}
+
+.modal_ajax p{
+    float: right;
+    width: 30%
 }
 
 

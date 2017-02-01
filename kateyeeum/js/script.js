@@ -21,7 +21,6 @@ link_web.addEventListener('click', function(e){
     xhr.send();
 }); //function(e)
 
-var xhr = new XMLHttpRequest();
 link_info.addEventListener('click', function(e){
     e.preventDefault();
     xhr.open("GET","info.php",true);
@@ -34,7 +33,6 @@ link_info.addEventListener('click', function(e){
     xhr.send();
 }); //function(e)
 
-var xhr = new XMLHttpRequest();
 link_about.addEventListener("click",function(e){
     e.preventDefault();
     xhr.open("GET","about.php",true);
@@ -50,21 +48,19 @@ link_about.addEventListener("click",function(e){
 
 //        LIGHT BOX    - INFO        //
 
-function getAjax(url, Newcontent){
-    var ajax = new XMLHttpRequest();
-    ajax.open('GET', url);
-    ajax.onreadystatechange = function () {
-        if (ajax.readyState == 4 && ajax.status == 200){
-            Newcontent.innerHTML = ajax.responseText;
-        }
-    }
-    ajax.send();
-} //sample
 
-function openDetail(){
+function openDetail(id){
     var modal_content = document.getElementById('modal_project');
-    console.log(modal_content);
-    getAjax('modal_info.php', modal_content);
-    console.log('works');
+    xhr.open("GET","modal_info.php?id="+id,true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 &&
+           xhr.status === 200){
+                modal_content.innerHTML = xhr.responseText;
+           }//readyState
+    } // onreadystatechange
+    xhr.send();
+};
 
-}
+function closeModal(){
+    modal_content.classList.add('hide');
+ };

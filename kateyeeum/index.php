@@ -6,11 +6,11 @@
 <body>
     <div class="main_board">
         <div class="main_board_content">
-            <a href="index.php">
-                <h1> KATE YEEUM </h1>
-                <h1> / </h1>
-                <h1> WEB DESIGNER </h1>
-            </a>
+                <a href="index.php">
+                    <h1> KATE YEEUM </h1>
+                    <h1> / </h1>
+                    <h1> WEB DESIGNER </h1>
+                </a>
 
             <div class="main_board_links">
                 <div>
@@ -42,6 +42,10 @@
             <p class="main_blurb"> Photoshop / Illustrator </p>
         </div> <!-- End of #content -->
     </div> <!-- display -->
+    
+<!--    <footer>
+        <p>Copyright © 2017 KATE YEEUM. All Rights Reserved.</p>
+    </footer>-->
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
