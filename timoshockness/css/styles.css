@@ -562,7 +562,23 @@ and open the template in the editor.
 .portifolio_title{
     color:#F0B14E;
 }
+.maintenance h3{
+    font-size:1.7em;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    color: #2f88d0;
+    padding-top:200px;
+    text-align:center;
+}
 
+.maintenance img {
+    position: absolute;
+    left:40%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top:65px;
+    width: 20%
+}
 /************** Contact ***************/
 #contact {
     background-color:#F4F4F4; 
