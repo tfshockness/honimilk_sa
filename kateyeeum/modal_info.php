@@ -15,6 +15,10 @@
                      <p class="info_description">
                         <?php echo $infoProject->description ?>
                      </p>
+                     <br />
+                     <div class="link_other-project">
+                        <a href="#">SEE OTHER PROJECT</a>
+                     </div><!-- link_other-project -->
             <?php } ?>
         </div><!-- modal_board -->
     </div> <!-- modal_project -->

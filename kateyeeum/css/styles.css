@@ -60,10 +60,13 @@ table {
 .timeline_text h3,
 .hire_me h2,
 .hire_contact a,
+.link_other-project a,
 footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+.modal_ajax p{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
 /*footer {
     position: absolute;
     right: 0;
@@ -101,14 +104,6 @@ footer{
     line-height: 1.2;
 }
 
-/*.main_board_links a{
-    text-decoration: none;
-    color: #45798c;
-    font-size: 40px;
-    font-weight: lighter;
-    vertical-align: middle;
-}*/
-
 .main_board_links {
     display: block;
     padding-left: 43%;
@@ -119,10 +114,6 @@ footer{
     font-size: 20px;
     display: inline-block;
 }
-
-/*.main_board_links div:hover a{
-    color: #0e4b5b;
-}*/
 
 .main_board_links i#pdf_icon {
     color: #ea5253;
@@ -339,7 +330,7 @@ footer{
     color: #fff;
     font-weight: bold;
     font-size: 36px;
-    vertical-align: buttom;
+    vertical-align: bottom;
     padding-top: 5px;
     text-align: center;
 }
@@ -431,7 +422,12 @@ i.fa.fa-twitter.fa-2x {
 
 .modal_ajax p{
     float: right;
-    width: 30%
+    width: 27%;
+    font-size: 18px;
+    padding-top: 18%;
+    padding-right: 13px;
+    line-height: 1.4;
+    color: #999999;
 }
 
 .modal_board{
@@ -454,4 +450,19 @@ i.fa.fa-twitter.fa-2x {
 
 .hide{
     display: none;
+}
+
+.link_other-project {
+    background-color: #ed826c;
+    padding: 9px;
+    overflow: auto;
+    display: block;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.link_other-project a{
+    text-decoration: none;
+    color: #fff;
 }
