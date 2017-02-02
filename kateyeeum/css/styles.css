@@ -434,6 +434,9 @@ i.fa.fa-twitter.fa-2x {
     width: 30%
 }
 
+.modal_board{
+    overflow: auto;
+}
 
 .close {
     color: #aaaaaa;
@@ -447,4 +450,8 @@ i.fa.fa-twitter.fa-2x {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.hide{
+    display: none;
 }

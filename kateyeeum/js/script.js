@@ -46,7 +46,7 @@ link_about.addEventListener("click",function(e){
 }); //function , addEventListener
 
 
-//        LIGHT BOX    - INFO        //
+//        MODAL BOX    - INFO        //
 
 
 function openDetail(id){
@@ -62,5 +62,13 @@ function openDetail(id){
 };
 
 function closeModal(){
-    modal_content.classList.add('hide');
- };
+   var modalBox = $('.modal_ajax');
+   var modalBackground = $('.modal_ajax_background');
+    modalBox.addClass('hide');
+    modalBackground.addClass('hide');
+}//closeModal 
+
+//       prevent copying the img        //
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
