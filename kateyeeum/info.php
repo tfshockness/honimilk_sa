@@ -15,6 +15,5 @@
         </div> <!-- End of .each_project_info -->
     <?php } ?>
         <div class="modal_project" id="modal_project">
-            <p>ITS HERE WE SHOULD BE HERE COME TO HERE PLEASE</p>
         </div> <!-- End of .modal_project -->
 </div> <!-- End of .display_all_projects -->

@@ -48,7 +48,6 @@ link_about.addEventListener("click",function(e){
 
 //        MODAL BOX    - INFO        //
 
-
 function openDetail(id){
     var modal_content = document.getElementById('modal_project');
     xhr.open("GET","modal_info.php?id="+id,true);
@@ -72,3 +71,17 @@ function closeModal(){
 $("body").on("contextmenu", "img", function(e) {
   return false;
 });
+
+//        MODAL BOX    - WEB        //
+
+function openDetailWeb(id){
+    var modal_content_web = document.getElementById('modal_project_web');
+    xhr.open("GET","modal_web.php?id="+id,true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 &&
+           xhr.status === 200){
+                modal_content_web.innerHTML = xhr.responseText;
+           }//readyState
+    } // onreadystatechange
+    xhr.send();
+};
