@@ -12,13 +12,21 @@
         <div class="modal_board">
             <?php while($webProject = mysqli_fetch_object($result)){ ?>
                 <div class="modal_content">
-                   <img src="image/web/<?php echo $webProject->img ?>" >
-                    <p class="web_description">
-                        <p class="web_description_title"><?php echo $webProject->title ?></p>
-                        <p class="web_description_content"><?php echo $webProject->role ?></p>
-                        <p class="web_description_content"><?php echo $webProject->skill ?></p>
-                    </p>
+                    <div class="modal_img_scroll">
+                        <img src="image/web/<?php echo $webProject->img ?>" >
+                    </div> <!-- modal_img_scroll -->
+                    <div class="web_description">
+                        <div class="web_description_title"><?php echo $webProject->title ?></div>
+                        <div class="web_description_content"><?php echo $webProject->role ?></div>
+                        <div class="web_description_content"><?php echo $webProject->skill ?></div>
+                    </div>
                 </div> <!-- modal_content -->
+                        <div class="link_other-project" style="float:left; margin-left:2%; margin-right:2%; ">
+                            <a href="<?php echo $webProject->link ?>" target="_blank">VISIT NOW</a>
+                        </div><!-- link_other-project -->
+                        <div class="link_other-project" style="float:left; margin-left:0;">
+                            <a href="#">SEE OTHER PROJECT</a>
+                        </div><!-- link_other-project -->
             <?php } ?>
         </div> <!-- modal_board -->
     </div> <!-- modal_project -->

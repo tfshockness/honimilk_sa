@@ -16,7 +16,7 @@
                         <?php echo $infoProject->description ?>
                      </p>
                      <br />
-                     <div class="link_other-project">
+                     <div class="link_other-project" style="margin-top:5%;">
                         <a href="#">SEE OTHER PROJECT</a>
                      </div><!-- link_other-project -->
             <?php } ?>
