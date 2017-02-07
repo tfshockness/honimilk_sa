@@ -19,14 +19,15 @@
                         <div class="web_description_title"><?php echo $webProject->title ?></div>
                         <div class="web_description_content"><?php echo $webProject->role ?></div>
                         <div class="web_description_content"><?php echo $webProject->skill ?></div>
-                    </div>
-                </div> <!-- modal_content -->
+                    
                         <div class="link_other-project" style="float:left; margin-left:2%; margin-right:2%; ">
-                            <a href="<?php echo $webProject->link ?>" target="_blank">VISIT NOW</a>
+                            <a href="<?php echo $webProject->link ?>" target="_blank">VIEW LIVE</a>
                         </div><!-- link_other-project -->
                         <div class="link_other-project" style="float:left; margin-left:0;">
-                            <a href="#">SEE OTHER PROJECT</a>
+                            <a href="#">OTHER PROJECT</a>
                         </div><!-- link_other-project -->
+                    </div><!-- web_description -->
+                </div> <!-- modal_content -->
             <?php } ?>
         </div> <!-- modal_board -->
     </div> <!-- modal_project -->

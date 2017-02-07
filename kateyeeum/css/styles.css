@@ -61,10 +61,13 @@ table {
 .hire_me h2,
 .hire_contact a,
 .link_other-project a,
+.web_description_title,
 footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
-.modal_ajax p{
+.modal_ajax p,
+.web_description_content,
+.info_description_content{
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 /*footer {
@@ -190,7 +193,7 @@ footer{
     width: 34%;
     background: #fff;
     padding: 56px 17px;
-    margin-bottom: 6%;
+    margin-bottom: 53px;
     cursor: pointer;
 }
 
@@ -218,7 +221,7 @@ footer{
     width: 34%;
     background: #fff;
     padding: 1px 31px;
-    margin-bottom: 6%;
+    margin-bottom: 53px;
     cursor: pointer;
 }
 
@@ -312,7 +315,8 @@ footer{
     height: 17px;
     display: inline-block;
 }
-/* about - contact */
+
+/*          about - contact           */
 
 .about_contact{
     float: right;
@@ -490,13 +494,14 @@ i.fa.fa-twitter.fa-2x {
 .web_description_title {
     font-size: 32px;
     text-align: center;
-    margin-top: 12%;
+    margin-top: 40%;
     margin-bottom: 8%;
 }
 
-.web_description_content {
+.web_description_content,
+.info_description_content{
     font-size: 18px;
     line-height: 1.2;
     color: #999999;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
