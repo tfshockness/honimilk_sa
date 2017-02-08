@@ -102,7 +102,7 @@ function contact_email() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
-    if (name == '' || email == '' || message == ''){
+    if (name === '' || email === '' || message === ''){
         var error = document.getElementById('error');
         error.innerHTML = "You <b>must</b> enter all informations!";
         console.log("caindo dentro da validacao!");

@@ -4,7 +4,7 @@
             <li id="li_skills"><a href="#skills">Skills</a></li>
             <li id="li_qualifications"><a href="#qualifications">Qualifications</a></li>
             <li id="li_career"><a href="#career">Career</a></li>
-            <li id="li_portifolio"><a href="#portifolio">Portifolio</a></li>
+            <li id="li_portifolio"><a href="#portifolio">Portfolio</a></li>
             <li id="li_contact"><a href="#contact">Contact</a></li>
         </ul>
    </div>
