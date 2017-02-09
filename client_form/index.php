@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Yeeum Lee - Form for a new website.</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <script src="js/modernizr.custom.js"></script>
@@ -23,7 +18,7 @@ and open the template in the editor.
                         <a class="codrops-icon codrops-icon-info" href="#"><span> 전화나 이메일로 연락하시기를 선호하신다면, (604)-561-7127 / hello@kateyeeum.com </span></a>
                     </div>
                 </div>
-                <form id="myform" class="fs-form fs-form-full" action="send.php" method="post" autocomplete="off">
+                <form id="myform" class="fs-form fs-form-full" action="send.php" method="get" autocomplete="off">
                     <ol class="fs-fields">
                         <li data-input-trigger>
                             <label class="fs-field-label fs-anim-upper" for="q1" data-info="어떤 서비스를 원하시는지 좀 더 정확하게 알기위해 다음의 질문사항에 답해주세요">어떤 서비스를 원하시나요?</label>
@@ -50,7 +45,7 @@ and open the template in the editor.
                             <textarea class="fs-anim-lower" id="q5" name="q5" placeholder="Describe here"></textarea>
                         </li>
                     </ol><!-- /fs-fields -->
-                    <button class="fs-submit" type="submit">제출하기</button>
+                    <button class="fs-submit" type="submit" name="submit">제출하기</button>
                 </form><!-- /fs-form -->
             </div><!-- /fs-form-wrap -->
 
