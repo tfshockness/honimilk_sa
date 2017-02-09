@@ -59,12 +59,12 @@ if (isset($_REQUEST['submit'])) {
                     if ($mail->Send()) {
                         ?>
                         <div class="full">
-                            <h2 class="sub-title">Thank you for your Email!</h2>
+                            <h2 class="sub-title">성공적으로 전송되었습니다!</h2>
                             <div class="container">
-                                <p class="paragraph">I have received your message and would like to thank you for writing to me. I will try to respond as soon as possible. Have a great day ahead!</p>
+                                <p class="paragraph">작성해주신 소중한 양식이 성공적으로 전달되었습니다. 기재해주신 이메일로 신속하게 답변드리도록 하겠습니다. 좋은하루 보내세요! </p>
                             </div>
                             <div class="link_form">
-                                <a href="index.php">Back to the Form</a>
+                                <a href="index.php">양식으로 돌아가기</a>
                             </div>
                         </div>
 
@@ -73,12 +73,12 @@ if (isset($_REQUEST['submit'])) {
 
                         ?>
                         <div class="full">
-                            <h2 class="sub-title">Sorry, I could not get your email!</h2>
+                            <h2 class="sub-title">전송을 실패했습니다!</h2>
                             <div class="container">
-                                <p class="paragraph">Something happened while I was trying to receive your e-mail. Could you please send me the e-mail at timoteo.ppt@gmail.com. Thank you!</p>
+                                <p class="paragraph">죄송합니다, 전송되는 과정에서 오류가 생겼습니다. 이 이메일로 원하시는 서비스에 대해 간략하게 보내주신다면 신속하게 답변해드리도록 하겠습니다. hello@kateyeeum.com 감사합니다.</p>
                             </div>
                             <div class="link_form">
-                                <a href="index.php">Back to the Form</a>
+                                <a href="index.php">양식으로 돌아가기</a>
                             </div>
                         </div>
                         <?php
