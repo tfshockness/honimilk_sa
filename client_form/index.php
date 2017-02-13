@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Yeeum Lee - Form for a new website.</title>
+        <title>Form for a new website.</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <script src="js/modernizr.custom.js"></script>

@@ -21,7 +21,7 @@ if (isset($_REQUEST['submit'])) {
     $q5 = $_GET['q5'];
 
     //Email which will recive the msg
-    $my_email = "timoteo.ppt@gmail.com";
+    $my_email = "support@kateyeeum.com";
 
     //Function to sent the e-mail
     $mail->From = "support@kateyeeum.com";
@@ -38,7 +38,7 @@ if (isset($_REQUEST['submit'])) {
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Yeeum Lee - Form for a new website.</title>
+        <title>Form for a new website.</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
