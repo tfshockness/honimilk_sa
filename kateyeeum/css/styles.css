@@ -62,6 +62,7 @@ table {
 .hire_contact a,
 .link_other-project a,
 .web_description_title,
+.mobile a,
 footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -505,3 +506,224 @@ i.fa.fa-twitter.fa-2x {
     color: #999999;
     margin-bottom: 3%;
 }
+
+/* display none in desktop ver */
+.mobile{
+    display: none;
+}
+
+#top, #left, #right{
+    display: none;
+    position: fixed;
+    background-color: wheat;
+}
+
+/*  Responsive Menu */
+@media screen and (max-width: 1313px){
+    .main_board_links {
+        padding-left: 41%;
+    }
+}
+
+@media screen and (max-width: 1141px){
+    .main_board_content h1{
+        font-size: 28px;
+    }
+    .main_board_content {
+        width: 49%;
+    }
+    .display_title {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 944px){
+    .display_title{
+        display: none;
+    }
+    .main_board_content{
+        margin-left: 24%;
+    }
+    .main_board_links{
+        padding-left: 37%;
+    }
+    #content p.main_blurb_large{
+        font-size: 35px;
+    }
+    #content p.main_blurb{
+        font-size: 16px;
+    }
+    .main_board{
+        background-color: #fff;
+    }
+    .wrapper {
+        height: 100vh;
+        border-top: 24px solid #EDF9CD;
+        border-left: 25px solid #EAF2D6;
+        border-right: 25px solid #EAF2D6;
+    }
+    .mobile{
+        display: inline-block;
+        position: fixed;
+		bottom: 0px;
+		height: 85px;
+		width: 100%;
+		background-color:#e6e6e6;
+    }
+    .mobile ul{
+		text-align: center;
+	}
+	.mobile li{
+		display: inline-block;
+		margin-top: 1%;
+	}
+    .mobile li:nth-of-type(2){
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+	.mobile a{
+		text-decoration:none;
+		color: #333333;
+		cursor: pointer;
+		letter-spacing: 2px;
+		font-weight: bold;
+	}
+	.mobile a:active{
+		color:#cd4a4f;
+	}
+
+}
+
+@media screen and (max-width: 781px){
+    #content p.main_blurb_large{
+        font-size: 30px;
+    }
+    #content p.main_blurb{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 633px){
+    .main_board_links {
+        padding-left: 30%;
+    }
+}
+
+@media screen and (max-width: 586px){
+    #content p.main_blurb_large {
+        font-size: 25px;
+    }
+    #content p.main_blurb {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 537px){
+    .main_board_content h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 464px){
+    .main_board_content {
+        width: 60%;
+    }
+    .main_board_content h1 {
+        font-size: 22px;
+    }
+    .main_board_content {
+        margin-left: 20%;
+    }
+    #content p.main_blurb_large {
+        font-size: 23px;
+        line-height: 1.1;
+        margin-bottom: 3%;
+    }
+    .wrapper {
+        border-top: 15px solid #EDF9CD;
+        border-left: 15px solid #EAF2D6;
+        border-right: 15px solid #EAF2D6;
+    }
+}
+@media screen and (max-width: 413px){
+    .main_board_content h1 {
+        font-size: 18px;
+    }
+    .wrapper {
+        border-top: 9px solid #EDF9CD;
+        border-left: 9px solid #EAF2D6;
+        border-right: 9px solid #EAF2D6;
+    }
+    .main_board_links {
+        padding-left: 24%;
+    }
+    #content p.main_blurb {
+        font-size: 12px;
+    }
+    #content p.main_blurb_large {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .main_board_content h1 {
+        font-size: 17px;
+    }
+    .fa-stack {
+        font-size: 24px;
+    }
+    .main_board_links {
+        padding-left: 18%;
+    }
+}
+
+@media screen and (max-width: 344px){
+    .mobile .fa-3x {
+        font-size: 2em;
+    }
+    .mobile li:nth-of-type(2) {
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+     .mobile a {
+        font-size: 12px;
+    }
+    .mobile{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 294px){
+    .main_board_content {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .main_board_links {
+        padding-left: 23%;
+    }
+    #content p.main_blurb_large {
+        font-size: 19px;
+        line-height: 1.2;
+        margin-bottom: 6%;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 247px){
+   
+    #content p.main_blurb_large {
+        font-size: 17px;
+        line-height: 1.1;
+        margin-bottom: 6%;
+        width: 92%;
+    }
+    .mobile{
+        height: 57px;
+    }
+    #content p.main_blurb {
+        font-size: 11px;
+    }
+    .main_board_links div {
+        font-size: 17px;
+    }
+}
+
