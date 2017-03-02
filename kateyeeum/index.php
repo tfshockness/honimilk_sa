@@ -46,9 +46,9 @@
 </div>
       <div class="mobile">
         <ul>
-          <li><a href="#web"><i class="fa fa-th-large fa-3x" aria-hidden="true"></i><br />WEB</a></li>
-          <li><a href="#info"><i class="fa fa-cube fa-3x" aria-hidden="true"></i><br />INFOGRAPHIC</a></li>
-          <li><a href="#about"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i><br />ABOUT</a></li>
+          <li><a href="#" id="project_web"><i class="fa fa-th-large fa-3x" aria-hidden="true"></i><br />WEB</a></li>
+          <li><a href="#" id="project_info"><i class="fa fa-cube fa-3x" aria-hidden="true"></i><br />INFOGRAPHIC</a></li>
+          <li><a href="#" id="ajax_about"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i><br />ABOUT</a></li>
         </ul>
     </div><!--End of .mobile | mobile menu bar-->
 
