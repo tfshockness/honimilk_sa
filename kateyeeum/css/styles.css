@@ -900,7 +900,7 @@ i.fa.fa-twitter.fa-2x {
     }
 }
 
-@media screen and (max-width:653px){
+@media screen and (max-width:701px){
     .each_project_info {
         width: 33%;
     }
@@ -918,7 +918,7 @@ i.fa.fa-twitter.fa-2x {
     }
 }
 
-@media screen and (max-width: 497px){
+@media screen and (max-width: 544px){
     .each_project_info:nth-of-type(2n) {
         margin-left: 3%;
     }
