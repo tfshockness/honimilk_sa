@@ -8,7 +8,7 @@
       }
 ?>
 
- <div class="display_all_projects">
+ <div class="display_all_projects" id="display_all_info">
     <?php while($infoProject = mysqli_fetch_object($result)){ ?>
         <div class="each_project_info" onClick="openDetail('<?php echo $infoProject->id ?>')">
                  <img src="image/info_cover/<?php echo $infoProject->cover_img ?>" >

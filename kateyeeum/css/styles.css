@@ -224,7 +224,7 @@ footer{
     width: 34%;
     background: #fff;
     padding: 1px 31px;
-    margin-bottom: 53px;
+    margin-bottom: 10%;
     cursor: pointer;
 }
 
@@ -240,13 +240,17 @@ footer{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .each_project_info:nth-of-type(2n){
     margin-left: 10%;
 }
 
-
+#display_all_info{
+    margin-left: 10%;
+}
 /*                                ABOUT.PHP                                   */
 
 .about_timeline{
@@ -751,7 +755,7 @@ i.fa.fa-twitter.fa-2x {
     }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 393px){
     .each_project {
         width: 72%;
     }
@@ -816,7 +820,7 @@ i.fa.fa-twitter.fa-2x {
 }
 
 @media screen and (max-width: 705px){
-    .modal_content{
+    #modal_content_web{
         display: flex;
         flex-direction: column;
         margin-top: -30%;
@@ -842,4 +846,107 @@ i.fa.fa-twitter.fa-2x {
         margin-top: auto; 
         margin-left: auto; 
 }
+}
+
+/*        Resize Infographic Portfolio       */
+
+#modal_ajax_info img {
+    width: 72%;
+    margin-left: 12%;
+    order: 2;
+}
+
+#modal_content_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_description{
+    padding-top: 8%;
+    order: 1;
+    width: 60%;
+    margin-left: 12%;
+}
+
+#link_other-info{
+    margin-left: 0;
+}
+
+#link_other-info{
+    margin-bottom: 3%;
+}
+
+/*        Responsive Infographic Portfolio        */
+@media screen and (max-width: 1099px){
+    #display_all_info {
+        margin-left: 8%;
+    }
+}
+@media screen and (max-width: 944px){
+    #display_all_info {
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width:941px){
+    .display_all_projects {
+        margin-left: 6%;
+    }
+}
+
+@media screen and (max-width:837px){
+    #display_all_info {
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width:653px){
+    .each_project_info {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:647px){
+    .each_project_info {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 601px){
+    .each_project_info:nth-of-type(2n) {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 497px){
+    .each_project_info:nth-of-type(2n) {
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 484px){
+    .each_project_info {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 417px){
+    #display_all_info {
+        margin-left: 3%;
+    }
+    .each_project_info:nth-of-type(2n) {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 391px){
+    .each_project_info {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width:376px){
+    .each_project_info {
+        width: 72%;
+    }
 }

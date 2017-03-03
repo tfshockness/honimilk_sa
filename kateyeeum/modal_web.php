@@ -11,7 +11,7 @@
     <div class="modal_ajax" onClick="closeModal()">
         <div class="modal_board">
             <?php while($webProject = mysqli_fetch_object($result)){ ?>
-                <div class="modal_content">
+                <div class="modal_content" id="modal_content_web">
                     <div class="modal_img_scroll">
                         <img src="image/web/<?php echo $webProject->img ?>" >
                     </div> <!-- modal_img_scroll -->
