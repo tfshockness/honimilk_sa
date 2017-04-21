@@ -260,6 +260,12 @@ footer{
     }
 }
 
+@media screen and (max-width: 684px){
+    .main_board_content h1{
+        font-size: 26px;
+    }
+}
+
 @media screen and (max-width: 560px){
     .display_all_projects {
         margin-left: 7%;
@@ -272,13 +278,16 @@ footer{
     }
 }
 
-@media screen and (max-width: 422px){
-    .display_all_projects {
-        margin-left: 2%;
+@media screen and (max-width: 505px){
+    .main_board_content h1{
+        font-size: 24px;
+    }
+    .main_board_links div {
+        font-size: 18px;
     }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 395px){
     .each_project {
         width: 72%;
     }
