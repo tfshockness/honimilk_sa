@@ -16,13 +16,13 @@
             <div class="main_board_links">
                 <div>
                     <span class="fa-stack fa-lg">
-                        <i class="fa fa-file-pdf-o fa-stack-1x" id="pdf_icon" aria-hidden="true"></i>
+                        <a href="image/kate_cv.pdf" download><i class="fa fa-file-pdf-o fa-stack-1x" id="pdf_icon" aria-hidden="true"></i></a>
                     </span>
                 </div>
 
                 <div>
                     <span class="fa-stack fa-lg">
-                        <i class="fa fa-linkedin fa-stack-1x" id="linkedIn_icon" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/kate-yeeum-lee-b3a971139/" target="_blank"><i class="fa fa-linkedin fa-stack-1x" id="linkedIn_icon" aria-hidden="true"></i></a>
                     </span>
                 </div>        
             </div> <!-- End of .main_board_links -->
@@ -46,9 +46,9 @@
             </div> <!-- End of .display_all_projects -->
         </div> <!-- End of #content -->
 </div> <!-- End of .wrapper -->
-<!--    <footer>
+    <footer>
         <p>Copyright © 2017 KATE YEEUM. All Rights Reserved.</p>
-    </footer>-->
+    </footer>
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
