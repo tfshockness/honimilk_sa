@@ -53,6 +53,7 @@ table {
 /*                              GENERAL STYLE                                  */
 .main_board_content h1,
 .main_board_links a,
+.go_back_link a,
 .link_other-project a,
 .web_description_skill,
 .web_description_role,
@@ -66,17 +67,13 @@ footer{
 .info_description_content{
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
-/*footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
+footer {
     text-align: center;
-    color: #d8d8d8;
+    padding-bottom: 4px;
+    color: #595959;
     letter-spacing: 1px;
     font-weight: 300;
-}*/
+}
 /*                                 MAIN BOARD                                  */
 
 .main_board{
@@ -253,6 +250,18 @@ footer{
 .web_description_link a:hover {
     box-shadow: 5px 5px 1px #b3b3b3;
 }
+
+.go_back_link{
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.go_back_link a{
+    background-color: #b3b3b3;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+}
 /*        Responsive Web Development Portfolio        */
 @media screen and (max-width: 804px){
     .display_all_projects {
@@ -264,6 +273,15 @@ footer{
     .main_board_content h1{
         font-size: 26px;
     }
+    .web_description_title {
+        font-size: 1.4em;
+    }
+    .web_description_skill, .web_description_role {
+        font-size: 15px;
+    }
+    .web_description_link a {
+        padding: 6px;
+    }
 }
 
 @media screen and (max-width: 560px){
@@ -272,12 +290,26 @@ footer{
     }
 }
 
+@media screen and (max-width: 550px){
+        footer{
+            font-size: 12px;
+        }
+}
 @media screen and (max-width: 594px){
     .each_project {
         padding: 40px 17px;
     }
 }
 
+@media screen and (max-width: 524px){
+    .web_description_link {
+        margin-top: 4%;
+    }
+    .second_title{
+        margin: 0 auto;
+        max-width: 68%;
+    }
+}
 @media screen and (max-width: 505px){
     .main_board_content h1{
         font-size: 24px;
