@@ -9,6 +9,11 @@
 ?>
 
 <div class="project_detail_wrapper">
+    <div class="go_back_link">
+        <a href="index.php">
+            GO BACK
+        </a>
+    </div>
     <?php while($webProject = mysqli_fetch_object($result)){ ?>
             <a href="<?php echo $webProject->link ?>" target="_blank">
                <div class="web_description_title">
@@ -34,7 +39,7 @@
             <?php
                 }
             ?>
-            <div class="web_description_title">
+            <div class="web_description_title second_title">
                 <?php echo $webProject->process_title ?>
             </div> <!-- End of .web_description_title -->
             <?php
@@ -46,6 +51,11 @@
                 }
             ?>
     <?php } ?>
+    <div class="go_back_link" style="margin-bottom: 4%;">
+        <a href="index.php">
+            GO BACK
+        </a>
+    </div>
 </div> <!-- End of .project_detail_wrapper -->
 
 
