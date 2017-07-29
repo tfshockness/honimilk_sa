@@ -27,7 +27,7 @@
                 <h4>Skilled</h4>
             </div>
             <div class="skill left">
-                <img src="./img/content/skills/aspnet.png" alt="" /><br />
+                <img src="./img/content/skills/vuejs.png" alt="" /><br />
                 <h4>Skilled</h4>
             </div>
             <div class="skill left">
@@ -35,7 +35,7 @@
                 <h4>Talented</h4>
             </div>
             <div class="skill left">
-                <img src="./img/content/skills/github.png" alt="" /><br />
+                <img src="./img/content/skills/laravel2.png" alt="" /><br />
                 <h4>Skilled</h4>
             </div>
         </div>

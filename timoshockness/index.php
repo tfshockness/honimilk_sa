@@ -29,9 +29,10 @@ and open the template in the editor.
         <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon-180x180.png" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
 
-
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/185e0bd75a.js"></script>
+
     </head>
     <body id="body">
         <?php include_once 'resources/templates/menu_top.php'; ?>
