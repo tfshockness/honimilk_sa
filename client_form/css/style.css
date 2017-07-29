@@ -1449,3 +1449,37 @@ div.cs-skin-boxes:focus > span {
 .cs-skin-boxes li.cs-selected span {
 	color: #fff;
 }
+
+/************************************ SEND PAGE *************************/
+.response{
+    padding-top:100px;
+}
+.full{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #314558;
+}
+
+.sub-title{
+    font-size:3vw;
+}
+
+.paragraph{
+    font-size: 1.5vw;
+    padding-bottom: 30px;
+}
+
+.link_form a{
+    padding: 0.6em 1.5em;
+    border: 3px solid #232529;
+    border-radius: 40px;
+    font-weight: 700;
+    margin: 0 40px 60px 0;
+    font-size: 1.25em;
+    
+
+}
+.link_form a:hover{
+    color: #232529;
+}

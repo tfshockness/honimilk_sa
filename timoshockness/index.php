@@ -16,6 +16,7 @@ and open the template in the editor.
         
            <!--End-of-Meta-Tag-->
         <title>Timoteo Shockness. Web Design and Web Developer. Personal Portfolio.</title>
+
         <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="icon/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-touch-icon-57x57.png" />
@@ -27,8 +28,11 @@ and open the template in the editor.
         <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon-180x180.png" />
         <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Orbitron|Roboto" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/185e0bd75a.js"></script>
+
     </head>
     <body id="body">
         <?php include_once 'resources/templates/menu_top.php'; ?>
@@ -39,6 +43,7 @@ and open the template in the editor.
                     <h2 class="f_lato">My name is Timoteo Shockness. <br /> I'm a Front End Developer.</h2>
                 </div>   
             </section>
+
             <div class="go_top hide" id="top">
                 <div>
                     <a href="#body">
@@ -46,6 +51,7 @@ and open the template in the editor.
                     </a>
                 </div>
             </div>
+
 <!--            Includinig the Icons Menu      -->
         <?php include_once 'resources/templates/menu_ic.php'; ?>
             <section id="skills">

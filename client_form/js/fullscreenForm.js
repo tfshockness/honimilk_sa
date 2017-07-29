@@ -452,10 +452,10 @@
 		var message = '';
 		switch( err ) {
 			case 'NOVAL' : 
-				message = 'Please fill the field before continuing';
+				message = '다음 질문으로 가기위해 빈칸을 작성해주세요.';
 				break;
 			case 'INVALIDEMAIL' : 
-				message = 'Please fill a valid email address';
+				message = '이메일을 다시 한번 확인해주세요.';
 				break;
 			// ...
 		};
