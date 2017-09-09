@@ -76,45 +76,19 @@ footer {
 }
 /*                                 MAIN BOARD                                  */
 
-.main_board{
-     /*background-color: #f9f8f4;*/
-     overflow: hidden;
+nav.navbar{
+    padding-top: 2%;
+    margin-bottom: 6%;
 }
 
-.main_board_content{
-    text-align: center;
-    margin-top: 5%;
+nav li a{
+    font-family: Helvetica Neue, Helvetica, Arial;
+    color: darkgray;
+    font-size: 17px;
 }
 
-.main_board_content a{
-    text-decoration: none;
-}
-
-.main_board_content h1{
-    color: #1e1e1e;
-    font-size: 30px;
-    font-weight: 900;
-    letter-spacing: 5px;
-    text-align: center;
-    line-height: 1.2;
-}
-
-.main_board_links div{
-    cursor: pointer;
-    font-size: 20px;
-    display: inline-block;
-}
-
-.main_board_links i#pdf_icon {
-    color: #ea5253;
-}
-
-.main_board_links i#linkedIn_icon{
-    color: #2c7cb5;
-}
-
-.fa-stack-2x {
-    color: #cccccc;
+nav li a:hover{
+    color: black;
 }
 
 /*                                 LINK                                    */
