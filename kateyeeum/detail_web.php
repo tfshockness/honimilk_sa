@@ -31,7 +31,8 @@
                     VIEW LIVE
                 </a>
             </div>
-            <?php 
+
+            <?php
                 $arrayScreenShot = explode(",",$webProject->screen_shot);
                 foreach($arrayScreenShot as $eachScreen){
             ?>
@@ -50,6 +51,8 @@
             <?php
                 }
             ?>
+
+
     <?php } ?>
     <div class="go_back_link" style="margin-bottom: 4%;">
         <a href="index.php">

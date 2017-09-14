@@ -33,3 +33,30 @@ function openDetailWeb(id){
     xhr.send();
 };
 
+
+//        OPEN WEB          //
+
+function openWork(){
+    xhr.open("GET","work.php",true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 &&
+           xhr.status === 200){
+            content.innerHTML = xhr.responseText;
+        }//readyState
+    }//onreadystatechange
+    xhr.send();
+}
+
+
+//        OPEN STUDY        //
+
+function openStudy(){
+    xhr.open("GET","study.php",true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 &&
+           xhr.status === 200){
+            content.innerHTML = xhr.responseText;
+        }//readyState
+    }// onreadystatechange
+    xhr.send();
+}

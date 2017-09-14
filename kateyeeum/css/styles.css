@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -51,22 +52,18 @@ table {
 /*                              END CSS RESET                                  */
 
 /*                              GENERAL STYLE                                  */
-.main_board_content h1,
-.main_board_links a,
-.go_back_link a,
-.link_other-project a,
-.web_description_skill,
-.web_description_role,
-.web_description_link,
-footer{
+a,
+p,
+footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.modal_ajax p,
-.web_description_content,
-.web_description_title,
-.info_description_content{
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+.wrapper{
+    width: 93%;
+    margin: 0 auto;
+    max-width: 1280px;
 }
+
 footer {
     text-align: center;
     padding-bottom: 4px;
@@ -82,7 +79,6 @@ nav.navbar{
 }
 
 nav li a{
-    font-family: Helvetica Neue, Helvetica, Arial;
     color: darkgray;
     font-size: 17px;
 }
@@ -144,10 +140,8 @@ nav li a:hover{
 }
 
 .each_project{    
-    border: 1px solid #e2e0e0;
-    width: 34%;
     background: #fff;
-    padding: 56px 17px;
+    padding: 50px;
     margin-bottom: 53px;
     cursor: pointer;
 }
@@ -168,8 +162,9 @@ nav li a:hover{
     max-width: 100%;
 }
 
-.each_project:nth-of-type(2n){
-    margin-left: 10%;
+.each_project:nth-of-type(3n+2){
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /*                                 PROJECT DETAIL                                  */
