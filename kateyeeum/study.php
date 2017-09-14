@@ -7,10 +7,14 @@
         }
         ?>
         <?php while ($studyProject = mysqli_fetch_object($result)) { ?>
-            <div class="each_project">
-                <img src="image/study_cover/<?php echo $studyProject->cover_img ?>">
-                <button type="button" class="btn btn-primary">Github</button>
-                <button type="button" class="btn btn-primary">View Live</button>
+            <div class="each_project study_project" style="background-image: url('./image/study_bg/<?php echo $studyProject->background_color ?>')">
+                <p class="study_cover_title"> <?php echo $studyProject->cover_title ?> </p>
+                <p> <?php echo $studyProject->cover_description ?> </p>
+                <p> <?php echo $studyProject->cover_skills ?> </p>
+                <div class="study_project_btns">
+                    <a class="btn btn-outline-secondary btn-sm" href="<?php echo $studyProject->githubLink ?>" target="_blank">Github</a>
+                    <a class="btn btn-outline-secondary btn-sm" href="<?php echo $studyProject->liveLink ?>" target="_blank">View Live</a>
+                </div>
             </div> <!-- End of .each_project -->
         <?php } ?>
 

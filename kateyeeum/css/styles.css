@@ -54,6 +54,7 @@ table {
 /*                              GENERAL STYLE                                  */
 a,
 p,
+h2,
 footer {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -78,12 +79,13 @@ nav.navbar{
     margin-bottom: 6%;
 }
 
-nav li a{
+li.nav-item{
+    cursor: pointer;
     color: darkgray;
     font-size: 17px;
 }
 
-nav li a:hover{
+nav li.nav-item:hover{
     color: black;
 }
 
@@ -144,6 +146,7 @@ nav li a:hover{
     padding: 50px;
     margin-bottom: 53px;
     cursor: pointer;
+    position: relative;
 }
 
 .each_project:hover img{
@@ -160,6 +163,22 @@ nav li a:hover{
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+p.read_more{
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+    position: absolute;
+    bottom: 37%;
+    left: 33%;
+    font-size: 1.2rem;
+}
+
+.each_project:hover p.read_more{
+    visibility: visible;
+    opacity: 1;
 }
 
 .each_project:nth-of-type(3n+2){
@@ -231,7 +250,41 @@ nav li a:hover{
     padding: 5px;
     font-size: 13px;
 }
+
+
+/*                      STUDY                         */
+
+.study_project {
+    width: 402px;
+    height: 284px;
+}
+
+.study_project_btns{
+    text-align: center;
+    opacity: 0;
+    padding-top: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+
+.each_project:hover .study_project_btns{
+    visibility: visible;
+    opacity: 1;
+    padding-top: 0;
+}
+
+.study_project:hover img{
+    opacity: 1.0;
+}
+
+p.study_cover_title{
+    font-size: 2.0rem;
+}
+
+
 /*        Responsive Web Development Portfolio        */
+
 @media screen and (max-width: 804px){
     .display_all_projects {
         margin-left: 10%;
@@ -277,14 +330,6 @@ nav li a:hover{
     .second_title{
         margin: 0 auto;
         max-width: 68%;
-    }
-}
-@media screen and (max-width: 505px){
-    .main_board_content h1{
-        font-size: 24px;
-    }
-    .main_board_links div {
-        font-size: 18px;
     }
 }
 

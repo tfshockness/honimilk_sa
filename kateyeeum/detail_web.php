@@ -8,35 +8,31 @@
       }
 ?>
 
-<div class="project_detail_wrapper">
+<p class="project_detail_wrapper">
     <div class="go_back_link">
-        <a href="index.php">
+        <a onclick="openWork('<?php echo $webProject ?>')" class="btn btn-secondary">
             GO BACK
         </a>
     </div>
     <?php while($webProject = mysqli_fetch_object($result)){ ?>
             <a href="<?php echo $webProject->link ?>" target="_blank">
-               <div class="web_description_title">
                     <?php echo $webProject->title ?>
-               </div> <!-- End of .web_decription_title -->
             </a>
-            <div class="web_description_skill">
+            <p>
                 <?php echo $webProject->skill ?>
-            </div> <!-- End of .web_description_skill -->
-            <div class="web_description_role">
+            </p> <!-- End of .web_description_skill -->
+            <p>
                 <?php echo $webProject->role ?>
-            </div> <!-- End of .web_description_role -->
-            <div class="web_description_link">
-                <a href="<?php echo $webProject->link ?>" target="_blank">
+            </p> <!-- End of .web_description_role -->
+            <a class="btn btn-outline-secondary btn-large" href="<?php echo $webProject->link ?>" target="_blank">
                     VIEW LIVE
-                </a>
-            </div>
+            </a>
 
             <?php
                 $arrayScreenShot = explode(",",$webProject->screen_shot);
                 foreach($arrayScreenShot as $eachScreen){
             ?>
-            <img src="image/web/<?php echo $eachScreen ?>" width="800">
+            <img src="image/web/<?php echo $eachScreen ?>" width="500">
             <?php
                 }
             ?>
@@ -47,7 +43,7 @@
                 $arrayProcessShot = explode(",",$webProject->process_shot);
                 foreach($arrayProcessShot as $eachProcess){
             ?>
-            <img src = "image/web_process/<?php echo $eachProcess ?>">
+            <img src = "image/web_process/<?php echo $eachProcess ?>" width="500">
             <?php
                 }
             ?>
