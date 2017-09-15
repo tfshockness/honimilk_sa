@@ -311,6 +311,20 @@ span.bg-highlight{
     background-color: darksalmon;
 }
 
+#socialicons {
+    text-align: center;
+}
+#socialicons .icon{
+    color: darksalmon;
+    display: inline-block;
+    text-align: center;
+    margin: 0 16px 10px;
+}
+#socialicons .icon:hover{
+    color: lightgray;
+}
+
+
 /*        Responsive Web Development Portfolio        */
 
 @media screen and (max-width: 804px){

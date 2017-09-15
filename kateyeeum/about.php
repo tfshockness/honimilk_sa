@@ -15,6 +15,20 @@
     </p>
 
     <img src="./image/about_image.png" alt="YeEumLee profile photo on About page.">
+
+    <h1><span style="background-color: lightyellow;">Say Hi!</span></h1>
+    <p class="about_opening">
+        How did you like my projects?<br />
+        If you have a question or just want to share your thoughts, I would love to hear from you!
+    </p>
+    <div id="socialicons">
+        <a class="icon" href="mailto:yeeumm@gmail.com" title="Email Me" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+        <a class="icon" href="https://www.linkedin.com/in/kate-yeeum-lee-b3a971139/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a class="icon" href="https://github.com/yiyeum" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        <a class="icon" href="https://www.facebook.com/yiyeum" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+        <a class="icon" href="https://twitter.com/KateYeeum" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a class="icon" href="https://www.instagram.com/kate_helloworld/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
 </div> <!-- End of .project_detail_wrapper -->
 
 
