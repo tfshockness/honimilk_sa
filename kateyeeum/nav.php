@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand" href="#">
-<!--            <img src="./image/signature.png" width="120" class="d-inline-block align-top" onclick="openWork('--><?php //echo $webProject ?>//')" alt="signature">
+            <img src="./image/signature.png" width="120" class="d-inline-block align-top" onclick="openWork('<?php echo $webProject ?>')" alt="signature">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
