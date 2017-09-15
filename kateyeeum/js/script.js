@@ -60,3 +60,17 @@ function openStudy(){
     }// onreadystatechange
     xhr.send();
 }
+
+
+//        OPEN ABOUT      //
+
+function openAbout(){
+    xhr.open("GET","about.php",true);
+    xhr.onreadystatechange = function(){
+        if(xhr.readyState == 4 &&
+            xhr.status === 200){
+            content.innerHTML = xhr.responseText;
+        }//readyState
+    }// onreadystatechange
+    xhr.send();
+}

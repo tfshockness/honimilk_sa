@@ -16,7 +16,7 @@
                     <a class="nav-link" onClick="openStudy('<?php echo $studyProject ?>')">Study</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" onClick="openAbout()">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>

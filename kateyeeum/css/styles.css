@@ -289,6 +289,26 @@ p.study_cover_title{
     font-size: 2.0rem;
 }
 
+/*                      ABOUT                         */
+
+.about_wrapper{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../image/study_bg/study_cover_1_bg.png");
+}
+
+p.about_opening{
+    font-size: 1.2rem;
+}
+
+.about_wrapper h1{
+    font-size: 3.0rem;
+}
+
+span.bg-highlight{
+    background-color: darksalmon;
+}
 
 /*        Responsive Web Development Portfolio        */
 
