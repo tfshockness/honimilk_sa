@@ -295,6 +295,7 @@ p.study_cover_title{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding-top: 2%;
     background-image: url("../image/study_bg/study_cover_1_bg.png");
 }
 
