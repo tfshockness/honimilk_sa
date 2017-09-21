@@ -7,7 +7,7 @@
         }
         ?>
         <?php while ($studyProject = mysqli_fetch_object($result)) { ?>
-            <div class="each_project study_project" style="background-image: url('./image/study_bg/<?php echo $studyProject->background_color ?>')">
+            <div class="study_project" style="background-image: url('./image/study_bg/<?php echo $studyProject->background_color ?>')">
                 <p class="study_cover_title"> <?php echo $studyProject->cover_title ?> </p>
                 <p> <?php echo $studyProject->cover_description ?> </p>
                 <p> <?php echo $studyProject->cover_skills ?> </p>

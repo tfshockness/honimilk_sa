@@ -14,7 +14,7 @@
         I’m looking forward to taking my career with you <br /> if you are looking for a passionate and skillful <span class="bg-highlight">front-end developer </span>and want to work with me!
     </p>
 
-    <img src="./image/about_image.png" alt="YeEumLee profile photo on About page.">
+    <img class="about_img" src="./image/about_image.png" alt="YeEumLee profile photo on About page.">
 
     <h1><span style="background-color: lightyellow;">Say Hi!</span></h1>
     <p class="about_opening">

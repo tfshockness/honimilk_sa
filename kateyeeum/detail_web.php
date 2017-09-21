@@ -39,7 +39,7 @@ if (!$result) {
             $arrayProcessShot = explode(",", $webProject->process_shot);
             foreach ($arrayProcessShot as $eachProcess) {
                 ?>
-                <img src="image/web_process/<?php echo $eachProcess ?>">
+                <img class="process_images" src="image/web_process/<?php echo $eachProcess ?>">
                 <?php
             }
             ?>

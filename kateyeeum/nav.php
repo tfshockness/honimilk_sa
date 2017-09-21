@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="./image/signature.png" width="120" class="d-inline-block align-top" onclick="openWork('<?php echo $webProject ?>')" alt="signature">
