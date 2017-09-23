@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" onclick="openWork('<?php echo $webProject ?>')">WORK</a>
+                    <a class="nav-link" onClick="openWork('<?php echo $webProject ?>')">WORK</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" onClick="openStudy('<?php echo $studyProject ?>')">PROJECT</a>
